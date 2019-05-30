@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "741001356725",
+    "firebase_url": "https://downbeat-application.firebaseio.com",
+    "project_id": "downbeat-application",
+    "storage_bucket": "downbeat-application.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:741001356725:android:b625b1542ee9b620",
+        "android_client_info": {
+          "package_name": "com.downbeat.downbeat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "741001356725-n501lu2t2gdb6fdulabmpjkneub153n7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.downbeat.downbeat",
+            "certificate_hash": "ee8c97adaed2744d2afe71789296afc5e42c26ad"
+          }
+        },
+        {
+          "client_id": "741001356725-hvjp1p9in7hbe5mgjnsu8lmidk4d8k19.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhzy1cV_Bt3Y5LdOYI99j86IQfrqSUw4U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "741001356725-hvjp1p9in7hbe5mgjnsu8lmidk4d8k19.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

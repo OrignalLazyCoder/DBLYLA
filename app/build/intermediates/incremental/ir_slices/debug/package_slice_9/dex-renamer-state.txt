@@ -1,0 +1,4 @@
+#Thu May 30 15:50:44 IST 2019
+base.0=D\:\\DownBeatliveyourlifeagain\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\9
+path.0=classes.dex
+renamed.0=classes.dex

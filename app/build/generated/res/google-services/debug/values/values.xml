@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">741001356725-hvjp1p9in7hbe5mgjnsu8lmidk4d8k19.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://downbeat-application.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">741001356725</string>
+    <string name="google_api_key" translatable="false">AIzaSyAhzy1cV_Bt3Y5LdOYI99j86IQfrqSUw4U</string>
+    <string name="google_app_id" translatable="false">1:741001356725:android:b625b1542ee9b620</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAhzy1cV_Bt3Y5LdOYI99j86IQfrqSUw4U</string>
+    <string name="google_storage_bucket" translatable="false">downbeat-application.appspot.com</string>
+    <string name="project_id" translatable="false">downbeat-application</string>
+</resources>
