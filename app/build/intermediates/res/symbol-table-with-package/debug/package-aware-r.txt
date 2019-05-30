@@ -135,6 +135,11 @@ attr editTextStyle
 attr elevation
 attr emptyVisibility
 attr expandActivityOverflowButtonDrawable
+attr fastScrollEnabled
+attr fastScrollHorizontalThumbDrawable
+attr fastScrollHorizontalTrackDrawable
+attr fastScrollVerticalThumbDrawable
+attr fastScrollVerticalTrackDrawable
 attr firstBaselineToTopHeight
 attr font
 attr fontFamily
@@ -167,6 +172,7 @@ attr itemPadding
 attr keylines
 attr lastBaselineToBottomHeight
 attr layout
+attr layoutManager
 attr layout_anchor
 attr layout_anchorGravity
 attr layout_behavior
@@ -264,6 +270,7 @@ attr radioButtonStyle
 attr ratingBarStyle
 attr ratingBarStyleIndicator
 attr ratingBarStyleSmall
+attr reverseLayout
 attr scopeUris
 attr searchHintIcon
 attr searchIcon
@@ -276,11 +283,13 @@ attr showDividers
 attr showText
 attr showTitle
 attr singleChoiceItemLayout
+attr spanCount
 attr spinBars
 attr spinnerDropDownItemStyle
 attr spinnerStyle
 attr splitTrack
 attr srcCompat
+attr stackFromEnd
 attr state_above_anchor
 attr statusBarBackground
 attr subMenuArrow
@@ -532,6 +541,9 @@ dimen compat_notification_large_icon_max_height
 dimen compat_notification_large_icon_max_width
 dimen disabled_alpha_material_dark
 dimen disabled_alpha_material_light
+dimen fastscroll_default_thickness
+dimen fastscroll_margin
+dimen fastscroll_minimum_range
 dimen highlight_alpha_material_colored
 dimen highlight_alpha_material_dark
 dimen highlight_alpha_material_light
@@ -539,6 +551,9 @@ dimen hint_alpha_material_dark
 dimen hint_alpha_material_light
 dimen hint_pressed_alpha_material_dark
 dimen hint_pressed_alpha_material_light
+dimen item_touch_helper_max_drag_scroll_per_frame
+dimen item_touch_helper_swipe_escape_max_velocity
+dimen item_touch_helper_swipe_escape_velocity
 dimen notification_action_icon_size
 dimen notification_action_text_size
 dimen notification_big_circle_margin
@@ -673,6 +688,7 @@ drawable floatmenubg
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable helpicon
+drawable ic_arrow_drop_up_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_swap_vertical_circle_black_24dp
@@ -782,6 +798,7 @@ id image
 id info
 id invisible
 id italic
+id item_touch_helper_previous_elevation
 id left
 id light
 id line1
@@ -1380,6 +1397,7 @@ styleable MenuView android_windowAnimationStyle android_itemTextAppearance andro
 styleable PopupWindow android_popupBackground android_popupAnimationStyle overlapAnchor
 styleable PopupWindowBackgroundState state_above_anchor
 styleable RecycleListView paddingBottomNoButtons paddingTopNoTitle
+styleable RecyclerView android_orientation android_descendantFocusability fastScrollEnabled fastScrollHorizontalThumbDrawable fastScrollHorizontalTrackDrawable fastScrollVerticalThumbDrawable fastScrollVerticalTrackDrawable layoutManager reverseLayout spanCount stackFromEnd
 styleable SearchView android_focusable android_maxWidth android_inputType android_imeOptions closeIcon commitIcon defaultQueryHint goIcon iconifiedByDefault layout queryBackground queryHint searchHintIcon searchIcon submitBackground suggestionRowLayout voiceIcon
 styleable SignInButton buttonSize colorScheme scopeUris
 styleable Spinner android_entries android_popupBackground android_prompt android_dropDownWidth popupTheme

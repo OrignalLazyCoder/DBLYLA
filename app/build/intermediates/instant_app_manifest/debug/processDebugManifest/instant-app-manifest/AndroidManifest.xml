@@ -27,14 +27,14 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity android:name="com.downbeat.downbeat.Home.HomeMainActivity" >
+        </activity>
+        <activity android:name="com.downbeat.downbeat.Login.Login" />
+        <activity android:name="com.downbeat.downbeat.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name="com.downbeat.downbeat.Login.Login" />
-        <activity android:name="com.downbeat.downbeat.MainActivity" >
         </activity>
 
         <receiver

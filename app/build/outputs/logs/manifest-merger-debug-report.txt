@@ -7,6 +7,7 @@ INJECTED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:2:1-
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\67b1176935bda5271a0100d7d08d86cd\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\3fe344a3a5e168a17523f50d23ae0cae\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-core:16.0.9] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.9.aar\88f06e044d10873e3e5ea1bc2e489b52\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\9a24186a40f1411500711f60e5701d36\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-analytics:16.5.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.5.0.aar\ff77d3a46ecb93dea5b8ef2b18d2a469\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.5.0.aar\b8b4862a50ea8ff8ddd90aeb342c7b3f\AndroidManifest.xml:17:1-55:12
 MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.5.0.aar\90c3748849fc31eb1f5d7f8cd70f784b\AndroidManifest.xml:17:1-36:12
@@ -46,10 +47,10 @@ MERGED from [com.android.support:documentfile:28.0.0] C:\Users\lazycoderr\.gradl
 MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\79db326a2db21fa1ac9e031155349d1b\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:print:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\c16846aaa87c4e65bb67565a7c02992f\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\ff33de84cd33f7ef0b43a16b6edb4cfe\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\3da4a532d548ed9d1e4e8b04fd85f593\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\9b417019a6a54a1ec735e89c00c99cab\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\accac2da4ac42e44957cfe8418a0cc01\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\76cb4360e5104c7c56a3a892bfab6911\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\3da4a532d548ed9d1e4e8b04fd85f593\AndroidManifest.xml:17:1-22:12
 INJECTED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:2:1-24:12
 INJECTED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:2:1-24:12
 INJECTED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:2:1-24:12
@@ -128,27 +129,27 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\lazycoderr
 	android:theme
 		ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:11:9-40
 activity#com.downbeat.downbeat.Home.HomeMainActivity
-ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:12:9-18:20
+ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:12:9-13:20
 	android:name
 		ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:12:19-56
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:13:13-17:29
-action#android.intent.action.MAIN
-ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:14:17-69
-	android:name
-		ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:14:25-66
-category#android.intent.category.LAUNCHER
-ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:16:17-77
-	android:name
-		ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:16:27-74
 activity#com.downbeat.downbeat.Login.Login
-ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:19:9-49
+ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:14:9-49
 	android:name
-		ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:19:19-46
+		ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:14:19-46
 activity#com.downbeat.downbeat.MainActivity
-ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:20:9-21:20
+ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:15:9-21:20
 	android:name
-		ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:20:19-47
+		ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:15:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:19:27-74
 uses-sdk
 INJECTED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml
@@ -159,6 +160,8 @@ MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\la
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\3fe344a3a5e168a17523f50d23ae0cae\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-core:16.0.9] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.9.aar\88f06e044d10873e3e5ea1bc2e489b52\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-core:16.0.9] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.9.aar\88f06e044d10873e3e5ea1bc2e489b52\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\9a24186a40f1411500711f60e5701d36\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\9a24186a40f1411500711f60e5701d36\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-analytics:16.5.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.5.0.aar\ff77d3a46ecb93dea5b8ef2b18d2a469\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-analytics:16.5.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.5.0.aar\ff77d3a46ecb93dea5b8ef2b18d2a469\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.5.0.aar\b8b4862a50ea8ff8ddd90aeb342c7b3f\AndroidManifest.xml:20:5-44
@@ -237,14 +240,14 @@ MERGED from [com.android.support:print:28.0.0] C:\Users\lazycoderr\.gradle\cache
 MERGED from [com.android.support:print:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\c16846aaa87c4e65bb67565a7c02992f\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\ff33de84cd33f7ef0b43a16b6edb4cfe\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\ff33de84cd33f7ef0b43a16b6edb4cfe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\3da4a532d548ed9d1e4e8b04fd85f593\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\3da4a532d548ed9d1e4e8b04fd85f593\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\9b417019a6a54a1ec735e89c00c99cab\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\9b417019a6a54a1ec735e89c00c99cab\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\accac2da4ac42e44957cfe8418a0cc01\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\accac2da4ac42e44957cfe8418a0cc01\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\76cb4360e5104c7c56a3a892bfab6911\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\76cb4360e5104c7c56a3a892bfab6911\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\3da4a532d548ed9d1e4e8b04fd85f593\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\3da4a532d548ed9d1e4e8b04fd85f593\AndroidManifest.xml:20:5-44
 INJECTED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml
 INJECTED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
