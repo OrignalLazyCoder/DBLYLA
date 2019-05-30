@@ -11,43 +11,47 @@ import com.downbeat.downbeat.R;
 public class HomeMainActivity extends AppCompatActivity {
 
     boolean opened;
-    LinearLayout view;
+    LinearLayout viewParent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_main);
 
-        view = findViewById(R.id.view);
-        view.setVisibility(View.INVISIBLE);
+        viewParent = findViewById(R.id.viewParent);
+
+
         findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(!opened){
-                    view.setVisibility(View.VISIBLE);
-                    TranslateAnimation animate = new TranslateAnimation(
-                            0,
-                            0,
-                            -view.getHeight(),
-                            0);
-                    animate.setDuration(500);
-                    animate.setFillAfter(true);
-                    view.startAnimation(animate);
-                } else {
-                    view.setVisibility(View.INVISIBLE);
-                    TranslateAnimation animate = new TranslateAnimation(
-                            0,
-                            0,
-                            0,
-                            -view.getHeight()
-                            );
-                    animate.setDuration(500);
-                    animate.setFillAfter(true);
-                    view.startAnimation(animate);
-                }
-                opened = !opened;
+                swipeMenu();
             }
         });
 
+    }
+
+    void swipeMenu(){
+        if(opened){
+            TranslateAnimation animate = new TranslateAnimation(
+                    0,
+                    0,
+                    -viewParent.getHeight() + 50,
+                    0);
+            animate.setDuration(500);
+            animate.setFillAfter(true);
+            viewParent.startAnimation(animate);
+
+        } else {
+            TranslateAnimation animate = new TranslateAnimation(
+                    0,
+                    0,
+                    0,
+                    -viewParent.getHeight() + 50
+            );
+            animate.setDuration(500);
+            animate.setFillAfter(true);
+            viewParent.startAnimation(animate);
+        }
+        opened = !opened;
     }
 }
