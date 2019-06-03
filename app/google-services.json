@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "741001356725-f9qtjaqs8ua59u5m4h2hri1eqq3fc5gd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.downbeat.downbeat",
+            "certificate_hash": "7b799bfa81ee6833764c02fb38f92af92ea4530a"
+          }
+        },
+        {
           "client_id": "741001356725-n501lu2t2gdb6fdulabmpjkneub153n7.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
