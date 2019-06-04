@@ -143,7 +143,7 @@
             android:background="@null"
             android:scaleType="fitXY"
             android:id="@+id/downbeatIconImageButton"
-            android:src="@drawable/appicon" />
+            android:src="@drawable/appicon"  />
 
         <ImageButton
             android:layout_width="30dp"
