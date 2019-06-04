@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Raja\\StudioProjects\\DBLYLA\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
+            "outputFile": "D:\\DownBeatliveyourlifeagain\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Raja\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64d0e50fd68330e18086a91d334cd8bb\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "source": "C:\\Users\\lazycoderr\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\67b1176935bda5271a0100d7d08d86cd\\res\\values-watch-v20\\values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Raja\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-auth-16.0.1.aar\\a4578c26832dcf7522ed6b7eb4988554\\res\\values-watch-v20\\values.xml",
+                    "source": "C:\\Users\\lazycoderr\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-auth-16.0.1.aar\\569252a6255ed3e8e89286a7c49e01b9\\res\\values-watch-v20\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",
