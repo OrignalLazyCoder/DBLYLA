@@ -15,6 +15,10 @@ anim design_bottom_sheet_slide_in
 anim design_bottom_sheet_slide_out
 anim design_snackbar_in
 anim design_snackbar_out
+anim enter_bottom_to_top
+anim enter_top_to_bottom
+anim exit_bottom_to_top
+anim exit_top_to_bottom
 animator design_appbar_state_list_animator
 animator design_fab_hide_motion_spec
 animator design_fab_show_motion_spec
@@ -1132,7 +1136,8 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
-id button
+id btnChat
+id btnSlidingMenu
 id buttonPanel
 id cancel_action
 id cbTermsAndCondition
@@ -1294,6 +1299,8 @@ id titleDividerNoCustom
 id title_template
 id top
 id topPanel
+id topSlidingMenuFrag
+id topSlidingMenuFrameLayout
 id touch_outside
 id transition_current_scene
 id transition_layout_save
@@ -1378,6 +1385,7 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout fragment_top_sliding_menu
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
 layout notification_action
@@ -1472,6 +1480,7 @@ string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
+string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string mtrl_chip_close_icon_content_description
 string password_toggle_content_description
