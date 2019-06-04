@@ -13,6 +13,7 @@ import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.downbeat.downbeat.Login.Login;
+import com.downbeat.downbeat.MainActivity;
 import com.downbeat.downbeat.R;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -22,10 +23,11 @@ public class HomeMainActivity extends AppCompatActivity {
     boolean opened;
     LinearLayout viewParent;
     ImageButton button;
+    ImageButton downbeatIconImageButton;
 
     private FirebaseAuth firebaseAuth;
+    private FirebaseUser firebaseUser;
     private FirebaseAuth.AuthStateListener authListener;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +38,20 @@ public class HomeMainActivity extends AppCompatActivity {
 
         viewParent = findViewById(R.id.viewParent);
         button = findViewById(R.id.button);
+        downbeatIconImageButton = findViewById(R.id.downbeatIconImageButton);
+
+        firebaseAuth = FirebaseAuth.getInstance();
+        firebaseUser = firebaseAuth.getCurrentUser();
+
+
+        downbeatIconImageButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                firebaseAuth.signOut();
+                startActivity( new Intent(getApplicationContext() , MainActivity.class));
+                finish();
+            }
+        });
 
         authListener = new FirebaseAuth.AuthStateListener() {
             @Override

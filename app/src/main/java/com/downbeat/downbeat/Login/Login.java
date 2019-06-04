@@ -151,9 +151,11 @@ public class Login extends AppCompatActivity {
 
                 UserInformation userInformation = new UserInformation(userName, userPhone, userEmail, userImageUrl);
 
-                databaseReference.setValue(userUID);
-                DatabaseReference userProfileRef = databaseReference.child(userUID+"/profile");
-                userProfileRef.setValue(userInformation);
+//                databaseReference.setValue(userUID);
+//                DatabaseReference userProfileRef = databaseReference.child(userUID+"/profile");
+//                userProfileRef.setValue(userInformation);
+
+                    databaseReference.child(userUID).child("profile").setValue(userInformation);
 
 
             }

@@ -142,6 +142,7 @@
             android:layout_margin="8dp"
             android:background="@null"
             android:scaleType="fitXY"
+            android:id="@+id/downbeatIconImageButton"
             android:src="@drawable/appicon" />
 
         <ImageButton
@@ -154,5 +155,10 @@
 
     </LinearLayout>
 
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="70dp"
+        android:id="@+id/lv" />
 
 </android.support.constraint.ConstraintLayout>
