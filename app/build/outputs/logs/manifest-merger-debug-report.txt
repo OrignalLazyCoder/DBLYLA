@@ -4,6 +4,7 @@ ADDED from C:\Users\Raja\StudioProjects\DBLYLA\app\src\main\AndroidManifest.xml:
 INJECTED from C:\Users\Raja\StudioProjects\DBLYLA\app\src\main\AndroidManifest.xml:2:1-24:12
 INJECTED from C:\Users\Raja\StudioProjects\DBLYLA\app\src\main\AndroidManifest.xml:2:1-24:12
 INJECTED from C:\Users\Raja\StudioProjects\DBLYLA\app\src\main\AndroidManifest.xml:2:1-24:12
+MERGED from [com.sothree.slidinguppanel:library:3.4.0] C:\Users\Raja\.gradle\caches\transforms-1\files-1.1\library-3.4.0.aar\a00003d2183e15a4c4e32aa3af082c2c\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:design:28.0.0] C:\Users\Raja\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\e45ce7f619a0b6c22efab0819e8cdf48\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Raja\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\64d0e50fd68330e18086a91d334cd8bb\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:customtabs:28.0.0] C:\Users\Raja\.gradle\caches\transforms-1\files-1.1\customtabs-28.0.0.aar\a6e22fb06c1966b78cb42d002cbcf85b\AndroidManifest.xml:17:1-22:12
@@ -83,6 +84,8 @@ INJECTED from C:\Users\Raja\StudioProjects\DBLYLA\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\Raja\StudioProjects\DBLYLA\app\src\main\AndroidManifest.xml:2:11-69
 application
 ADDED from C:\Users\Raja\StudioProjects\DBLYLA\app\src\main\AndroidManifest.xml:5:5-22:19
+MERGED from [com.sothree.slidinguppanel:library:3.4.0] C:\Users\Raja\.gradle\caches\transforms-1\files-1.1\library-3.4.0.aar\a00003d2183e15a4c4e32aa3af082c2c\AndroidManifest.xml:9:5-20
+MERGED from [com.sothree.slidinguppanel:library:3.4.0] C:\Users\Raja\.gradle\caches\transforms-1\files-1.1\library-3.4.0.aar\a00003d2183e15a4c4e32aa3af082c2c\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:28.0.0] C:\Users\Raja\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\e45ce7f619a0b6c22efab0819e8cdf48\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] C:\Users\Raja\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\e45ce7f619a0b6c22efab0819e8cdf48\AndroidManifest.xml:22:5-20
 MERGED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\Raja\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.5.aar\7afa2a12e0294634f3df62f71ef4f256\AndroidManifest.xml:23:5-40:19
@@ -173,6 +176,8 @@ uses-sdk
 INJECTED from C:\Users\Raja\StudioProjects\DBLYLA\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Raja\StudioProjects\DBLYLA\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Raja\StudioProjects\DBLYLA\app\src\main\AndroidManifest.xml
+MERGED from [com.sothree.slidinguppanel:library:3.4.0] C:\Users\Raja\.gradle\caches\transforms-1\files-1.1\library-3.4.0.aar\a00003d2183e15a4c4e32aa3af082c2c\AndroidManifest.xml:7:5-44
+MERGED from [com.sothree.slidinguppanel:library:3.4.0] C:\Users\Raja\.gradle\caches\transforms-1\files-1.1\library-3.4.0.aar\a00003d2183e15a4c4e32aa3af082c2c\AndroidManifest.xml:7:5-44
 MERGED from [com.android.support:design:28.0.0] C:\Users\Raja\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\e45ce7f619a0b6c22efab0819e8cdf48\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:design:28.0.0] C:\Users\Raja\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\e45ce7f619a0b6c22efab0819e8cdf48\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Raja\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\64d0e50fd68330e18086a91d334cd8bb\AndroidManifest.xml:20:5-44
