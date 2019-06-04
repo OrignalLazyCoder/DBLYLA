@@ -3,11 +3,15 @@ package com.downbeat.downbeat.Home;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.net.Uri;
 import android.support.annotation.NonNull;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.animation.TranslateAnimation;
+import android.widget.FrameLayout;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.Toast;
@@ -18,12 +22,13 @@ import com.downbeat.downbeat.R;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
-public class HomeMainActivity extends AppCompatActivity {
+public class HomeMainActivity extends AppCompatActivity implements TopSlidingMenuFragment.OnFragmentInteractionListener {
 
     boolean opened;
     LinearLayout viewParent;
     ImageButton button;
     ImageButton downbeatIconImageButton;
+    FrameLayout topSlidingMenuFragmentFrameLayout;
 
     private FirebaseAuth firebaseAuth;
     private FirebaseUser firebaseUser;
@@ -37,12 +42,13 @@ public class HomeMainActivity extends AppCompatActivity {
         firebaseAuth = FirebaseAuth.getInstance();
 
         viewParent = findViewById(R.id.viewParent);
-        button = findViewById(R.id.button);
+        button = findViewById(R.id.btnSlidingMenu);
         downbeatIconImageButton = findViewById(R.id.downbeatIconImageButton);
 
         firebaseAuth = FirebaseAuth.getInstance();
         firebaseUser = firebaseAuth.getCurrentUser();
 
+        addTopSlidingMenuFragment();
 
         downbeatIconImageButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -53,49 +59,21 @@ public class HomeMainActivity extends AppCompatActivity {
             }
         });
 
-        authListener = new FirebaseAuth.AuthStateListener() {
-            @Override
 
-            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
-                FirebaseUser user = firebaseAuth.getCurrentUser();
-                if (user == null) {
-                    // if user is null launch login activity
-                    startActivity(new Intent(getApplicationContext(), Login.class));
-                    finish();
-                }else{
-                    Toast.makeText(HomeMainActivity.this, "Hello "+user.getDisplayName(), Toast.LENGTH_SHORT).show();
-                }
-            }
-        };
-
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                swipeMenu();
-            }
-        });
 
     }
 
-    @Override
-    protected void onResume() {
-        super.onResume();
+    private void addTopSlidingMenuFragment() {
 
-        authListener = new FirebaseAuth.AuthStateListener() {
-            @Override
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        TopSlidingMenuFragment topSlidingMenuFragment = new TopSlidingMenuFragment();
+        fragmentTransaction.add(R.id.topSlidingMenuFrameLayout, topSlidingMenuFragment);
+        fragmentTransaction.commit();
 
-            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
-                FirebaseUser user = firebaseAuth.getCurrentUser();
-                if (user == null) {
-                    // if user is null launch login activity
-                    startActivity(new Intent(getApplicationContext(), Login.class));
-                    finish();
-                }else{
-                    Toast.makeText(HomeMainActivity.this, "Hello "+user.getDisplayName(), Toast.LENGTH_SHORT).show();
-                }
-            }
-        };
     }
+
+
 
     @Override
     public void onBackPressed() {
@@ -127,5 +105,11 @@ public class HomeMainActivity extends AppCompatActivity {
             viewParent.startAnimation(animate);
         }
         opened = !opened;
+    }
+
+
+    @Override
+    public void onFragmentInteraction() {
+        Toast.makeText(this, "Hello TopSlidingMenu", Toast.LENGTH_SHORT).show();
     }
 }
