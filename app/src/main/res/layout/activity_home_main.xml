@@ -144,8 +144,8 @@
 
                 <ImageButton
                     android:id="@+id/btnChat"
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"
                     android:background="@null"
@@ -162,8 +162,8 @@
                     android:src="@drawable/blogicon" />
 
                 <ImageButton
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"
                     android:background="@null"
@@ -176,7 +176,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="8dp"
+                android:textSize="13dp"
+                android:layout_marginTop="15dp"
                 android:textColor="#696969"
                 android:text="Swipe Down/Up"/>
 
