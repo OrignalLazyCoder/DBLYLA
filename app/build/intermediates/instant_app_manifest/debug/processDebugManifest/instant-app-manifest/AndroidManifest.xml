@@ -132,6 +132,11 @@
             android:value="@integer/google_play_services_version" />
 
         <provider
+            android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.downbeat.downbeat.lifecycle-trojan"
+            android:exported="false"
+            android:multiprocess="true" />
+        <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"
             android:authorities="com.downbeat.downbeat.com.android.tools.ir.server.InstantRunContentProvider"
             android:multiprocess="true" />

@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
+import com.downbeat.downbeat.Home.HomeMainActivity;
 import com.downbeat.downbeat.Login.Login;
 
 public class MainActivity extends AppCompatActivity {
@@ -17,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        nextBtn = findViewById(R.id.nextButton);
+         nextBtn = findViewById(R.id.nextButton);
 
         nextBtn.setOnClickListener(new View.OnClickListener() {
             @Override

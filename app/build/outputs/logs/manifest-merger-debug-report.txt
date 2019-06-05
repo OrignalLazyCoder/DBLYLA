@@ -4,6 +4,7 @@ ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:2:1-24:
 INJECTED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:2:1-24:12
 INJECTED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:2:1-24:12
 INJECTED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:2:1-24:12
+MERGED from [com.sothree.slidinguppanel:library:3.4.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\library-3.4.0.aar\0298cfda1da1f68a8937c99795b27cdd\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:design:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\9d8c48ad9e7a6a813b3e2b6a23ca1500\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\67b1176935bda5271a0100d7d08d86cd\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:customtabs:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\customtabs-28.0.0.aar\6a367eee829269cd7d036c647ef4e20a\AndroidManifest.xml:17:1-22:12
@@ -35,6 +36,7 @@ MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\lazy
 MERGED from [com.android.support:support-v4:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\d3bca80903aba03899937a266f06734b\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\c28677a89012c55a604149bea57d3b75\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\3fe344a3a5e168a17523f50d23ae0cae\AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\e2fb0aa4503b11ab3f284bbecf4c2dba\AndroidManifest.xml:17:1-30:12
 MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\9a24186a40f1411500711f60e5701d36\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\abb4a68ff96d04690515a8d682cad213\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\f462a0e5db02efe0739ef351899a46fa\AndroidManifest.xml:17:1-22:12
@@ -56,13 +58,13 @@ MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\lazycoderr\.grad
 MERGED from [com.android.support:interpolator:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\3da4a532d548ed9d1e4e8b04fd85f593\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\08358774fe9a5f7cef86a056e7906721\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\098a326bcae69866126300f468d739ac\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\55e6c3fc8e06c4e8b209ecc38155b8c3\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\79db326a2db21fa1ac9e031155349d1b\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\c16846aaa87c4e65bb67565a7c02992f\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\ff33de84cd33f7ef0b43a16b6edb4cfe\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\9b417019a6a54a1ec735e89c00c99cab\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\accac2da4ac42e44957cfe8418a0cc01\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\76cb4360e5104c7c56a3a892bfab6911\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\ff33de84cd33f7ef0b43a16b6edb4cfe\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\55e6c3fc8e06c4e8b209ecc38155b8c3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\79db326a2db21fa1ac9e031155349d1b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\c16846aaa87c4e65bb67565a7c02992f\AndroidManifest.xml:17:1-22:12
 INJECTED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:2:1-24:12
 INJECTED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:2:1-24:12
 INJECTED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:2:1-24:12
@@ -82,6 +84,8 @@ INJECTED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:2:1-
 		ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:2:11-69
 application
 ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:5:5-22:19
+MERGED from [com.sothree.slidinguppanel:library:3.4.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\library-3.4.0.aar\0298cfda1da1f68a8937c99795b27cdd\AndroidManifest.xml:9:5-20
+MERGED from [com.sothree.slidinguppanel:library:3.4.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\library-3.4.0.aar\0298cfda1da1f68a8937c99795b27cdd\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\9d8c48ad9e7a6a813b3e2b6a23ca1500\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\9d8c48ad9e7a6a813b3e2b6a23ca1500\AndroidManifest.xml:22:5-20
 MERGED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.5.aar\463387258fa11214211627058c658594\AndroidManifest.xml:23:5-40:19
@@ -126,6 +130,8 @@ MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\lazy
 MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.2.0.aar\687bc623248a40023f252c9f76d73fed\AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\3fe344a3a5e168a17523f50d23ae0cae\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\3fe344a3a5e168a17523f50d23ae0cae\AndroidManifest.xml:9:5-20
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\e2fb0aa4503b11ab3f284bbecf4c2dba\AndroidManifest.xml:22:5-28:19
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\e2fb0aa4503b11ab3f284bbecf4c2dba\AndroidManifest.xml:22:5-28:19
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\8cfa999d4487f9dda7972f9e8339000a\AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\8cfa999d4487f9dda7972f9e8339000a\AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\f16ee3a0e7b950382bf7609e9dc1677c\AndroidManifest.xml:22:5-23:19
@@ -170,6 +176,8 @@ uses-sdk
 INJECTED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml
 INJECTED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml
+MERGED from [com.sothree.slidinguppanel:library:3.4.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\library-3.4.0.aar\0298cfda1da1f68a8937c99795b27cdd\AndroidManifest.xml:7:5-44
+MERGED from [com.sothree.slidinguppanel:library:3.4.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\library-3.4.0.aar\0298cfda1da1f68a8937c99795b27cdd\AndroidManifest.xml:7:5-44
 MERGED from [com.android.support:design:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\9d8c48ad9e7a6a813b3e2b6a23ca1500\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:design:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\9d8c48ad9e7a6a813b3e2b6a23ca1500\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\67b1176935bda5271a0100d7d08d86cd\AndroidManifest.xml:20:5-44
@@ -232,6 +240,8 @@ MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\lazycoder
 MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\c28677a89012c55a604149bea57d3b75\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\3fe344a3a5e168a17523f50d23ae0cae\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\3fe344a3a5e168a17523f50d23ae0cae\AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\e2fb0aa4503b11ab3f284bbecf4c2dba\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\e2fb0aa4503b11ab3f284bbecf4c2dba\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\9a24186a40f1411500711f60e5701d36\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\9a24186a40f1411500711f60e5701d36\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\abb4a68ff96d04690515a8d682cad213\AndroidManifest.xml:20:5-44
@@ -274,20 +284,20 @@ MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\lazycoderr\.gradle
 MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\08358774fe9a5f7cef86a056e7906721\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\098a326bcae69866126300f468d739ac\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\098a326bcae69866126300f468d739ac\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\55e6c3fc8e06c4e8b209ecc38155b8c3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\55e6c3fc8e06c4e8b209ecc38155b8c3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\79db326a2db21fa1ac9e031155349d1b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\79db326a2db21fa1ac9e031155349d1b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\c16846aaa87c4e65bb67565a7c02992f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\c16846aaa87c4e65bb67565a7c02992f\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\ff33de84cd33f7ef0b43a16b6edb4cfe\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\ff33de84cd33f7ef0b43a16b6edb4cfe\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\9b417019a6a54a1ec735e89c00c99cab\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\9b417019a6a54a1ec735e89c00c99cab\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\accac2da4ac42e44957cfe8418a0cc01\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\accac2da4ac42e44957cfe8418a0cc01\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\76cb4360e5104c7c56a3a892bfab6911\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\76cb4360e5104c7c56a3a892bfab6911\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\ff33de84cd33f7ef0b43a16b6edb4cfe\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\ff33de84cd33f7ef0b43a16b6edb4cfe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\55e6c3fc8e06c4e8b209ecc38155b8c3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\55e6c3fc8e06c4e8b209ecc38155b8c3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\79db326a2db21fa1ac9e031155349d1b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\79db326a2db21fa1ac9e031155349d1b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\c16846aaa87c4e65bb67565a7c02992f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\c16846aaa87c4e65bb67565a7c02992f\AndroidManifest.xml:20:5-44
 INJECTED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml
 INJECTED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
@@ -510,3 +520,13 @@ ADDED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\lazyc
 		ADDED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.2.0.aar\687bc623248a40023f252c9f76d73fed\AndroidManifest.xml:25:13-66
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.2.0.aar\687bc623248a40023f252c9f76d73fed\AndroidManifest.xml:24:13-58
+provider#android.arch.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\e2fb0aa4503b11ab3f284bbecf4c2dba\AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\e2fb0aa4503b11ab3f284bbecf4c2dba\AndroidManifest.xml:25:13-68
+	android:multiprocess
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\e2fb0aa4503b11ab3f284bbecf4c2dba\AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\e2fb0aa4503b11ab3f284bbecf4c2dba\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\e2fb0aa4503b11ab3f284bbecf4c2dba\AndroidManifest.xml:24:13-83

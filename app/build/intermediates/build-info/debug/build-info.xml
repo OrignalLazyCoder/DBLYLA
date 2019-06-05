@@ -5,63 +5,35 @@
     build-mode="COLD"
     density="xhdpi"
     format="10"
-    ir-eligibility="CLASS_ADDED"
     plugin-version="3.3.2"
-    timestamp="1559620270814"
+    timestamp="1559710262647"
     token="-1021203614000798811"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="1819" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="476" />
+        duration="0" />
     <task
         name="verifier"
-        duration="66" />
+        duration="0" />
 
-    <artifact
-        location="D:\DownBeatliveyourlifeagain\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\DownBeatliveyourlifeagain\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\DownBeatliveyourlifeagain\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\DownBeatliveyourlifeagain\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\DownBeatliveyourlifeagain\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\DownBeatliveyourlifeagain\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\DownBeatliveyourlifeagain\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\DownBeatliveyourlifeagain\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\DownBeatliveyourlifeagain\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\DownBeatliveyourlifeagain\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-        type="SPLIT" />
     <artifact
         location="D:\DownBeatliveyourlifeagain\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
         type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1559619957635"
+        timestamp="1559709510642"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="D:\DownBeatliveyourlifeagain\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
         <artifact
             location="D:\DownBeatliveyourlifeagain\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
@@ -95,45 +67,11 @@
         <artifact
             location="D:\DownBeatliveyourlifeagain\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
-        <artifact
-            location="D:\DownBeatliveyourlifeagain\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="CLASS_ADDED"
-        timestamp="1559620270814"
+        timestamp="1559710262647"
         verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="D:\DownBeatliveyourlifeagain\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\DownBeatliveyourlifeagain\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\DownBeatliveyourlifeagain\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\DownBeatliveyourlifeagain\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\DownBeatliveyourlifeagain\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\DownBeatliveyourlifeagain\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\DownBeatliveyourlifeagain\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\DownBeatliveyourlifeagain\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\DownBeatliveyourlifeagain\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\DownBeatliveyourlifeagain\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
         <artifact
             location="D:\DownBeatliveyourlifeagain\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
