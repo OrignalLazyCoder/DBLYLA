@@ -12,7 +12,6 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class HomeMainActivity extends AppCompatActivity {
 
-    ImageButton button;
     ImageButton downbeatIconImageButton;
 
     private FirebaseAuth firebaseAuth;
@@ -24,7 +23,6 @@ public class HomeMainActivity extends AppCompatActivity {
 
         firebaseAuth = FirebaseAuth.getInstance();
 
-        button = findViewById(R.id.btnSlidingMenu);
         downbeatIconImageButton = findViewById(R.id.downbeatIconImageButton);
 
         firebaseAuth = FirebaseAuth.getInstance();

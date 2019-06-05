@@ -1148,7 +1148,6 @@ id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
 id btnChat
-id btnSlidingMenu
 id buttonPanel
 id cancel_action
 id cbTermsAndCondition
