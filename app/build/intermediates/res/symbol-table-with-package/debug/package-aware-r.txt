@@ -15,10 +15,6 @@ anim design_bottom_sheet_slide_in
 anim design_bottom_sheet_slide_out
 anim design_snackbar_in
 anim design_snackbar_out
-anim enter_bottom_to_top
-anim enter_top_to_bottom
-anim exit_bottom_to_top
-anim exit_top_to_bottom
 animator design_appbar_state_list_animator
 animator design_fab_hide_motion_spec
 animator design_fab_show_motion_spec
@@ -556,6 +552,18 @@ attr track
 attr trackTint
 attr trackTintMode
 attr ttcIndex
+attr umanoAnchorPoint
+attr umanoClipPanel
+attr umanoDragView
+attr umanoFadeColor
+attr umanoFlingVelocity
+attr umanoInitialState
+attr umanoOverlay
+attr umanoPanelHeight
+attr umanoParallaxOffset
+attr umanoScrollInterpolator
+attr umanoScrollableView
+attr umanoShadowHeight
 attr useCompatPadding
 attr viewInflaterClass
 attr voiceIcon
@@ -1024,10 +1032,12 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable above_shadow
 drawable appicon
 drawable applogo
 drawable avd_hide_password
 drawable avd_show_password
+drawable below_shadow
 drawable blogicon
 drawable chaticon
 drawable common_full_open_on_phone
@@ -1125,6 +1135,7 @@ id adjust_width
 id alertTitle
 id all
 id always
+id anchored
 id async
 id auto
 id barrier
@@ -1137,7 +1148,6 @@ id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
 id btnChat
-id btnSlidingMenu
 id buttonPanel
 id cancel_action
 id cbTermsAndCondition
@@ -1150,6 +1160,7 @@ id chronometer
 id clip_horizontal
 id clip_vertical
 id collapseActionView
+id collapsed
 id container
 id content
 id contentPanel
@@ -1175,6 +1186,7 @@ id enterAlways
 id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
+id expanded
 id expanded_menu
 id fill
 id fill_horizontal
@@ -1186,6 +1198,7 @@ id ghost_view
 id gone
 id group_divider
 id groups
+id hidden
 id home
 id homeAsUp
 id icon
@@ -1203,6 +1216,7 @@ id left
 id light
 id line1
 id line3
+id linearLayout
 id listMode
 id list_item
 id lv
@@ -1233,6 +1247,8 @@ id pin
 id progress_circular
 id progress_horizontal
 id radio
+id relativeLayout
+id relativeLayout2
 id right
 id right_icon
 id right_side
@@ -1262,6 +1278,7 @@ id showCustom
 id showHome
 id showTitle
 id sign_in_button
+id sliding_layout
 id smallLabel
 id snackbar_action
 id snackbar_text
@@ -1299,8 +1316,6 @@ id titleDividerNoCustom
 id title_template
 id top
 id topPanel
-id topSlidingMenuFrag
-id topSlidingMenuFrameLayout
 id touch_outside
 id transition_current_scene
 id transition_layout_save
@@ -1385,7 +1400,6 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
-layout fragment_top_sliding_menu
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
 layout notification_action
@@ -2056,6 +2070,7 @@ styleable ScrimInsetsFrameLayout insetForeground
 styleable ScrollingViewBehavior_Layout behavior_overlapTop
 styleable SearchView android_focusable android_maxWidth android_inputType android_imeOptions closeIcon commitIcon defaultQueryHint goIcon iconifiedByDefault layout queryBackground queryHint searchHintIcon searchIcon submitBackground suggestionRowLayout voiceIcon
 styleable SignInButton buttonSize colorScheme scopeUris
+styleable SlidingUpPanelLayout umanoAnchorPoint umanoClipPanel umanoDragView umanoFadeColor umanoFlingVelocity umanoInitialState umanoOverlay umanoPanelHeight umanoParallaxOffset umanoScrollInterpolator umanoScrollableView umanoShadowHeight
 styleable Snackbar snackbarButtonStyle snackbarStyle
 styleable SnackbarLayout android_maxWidth elevation maxActionInlineWidth
 styleable Spinner android_entries android_popupBackground android_prompt android_dropDownWidth popupTheme

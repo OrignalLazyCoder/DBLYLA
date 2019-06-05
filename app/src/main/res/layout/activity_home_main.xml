@@ -1,164 +1,188 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android = "http://schemas.android.com/apk/res/android"
+
+<com.sothree.slidinguppanel.SlidingUpPanelLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools = "http://schemas.android.com/tools"
-    android:layout_width = "match_parent"
-    android:layout_height = "match_parent"
-    android:background="#F6F9F8"
-    tools:context=".Home.HomeMainActivity">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sliding_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    app:umanoFadeColor="@android:color/transparent"
+    app:umanoOverlay="false"
+    app:umanoPanelHeight="50dp"
+    app:umanoShadowHeight="20dp"
+    >
 
-    <LinearLayout
-        android:id="@+id/viewParent"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_marginStart="0dp"
-        android:layout_marginLeft="0dp"
-        android:layout_marginTop="0dp"
-        android:layout_marginEnd="0dp"
-        android:elevation="50dp"
-        android:layout_marginRight="0dp"
-        android:background="@drawable/menubg"
-        android:gravity="center_horizontal"
-        android:orientation="vertical"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="20dp"
-            android:orientation="horizontal">
-
-            <ImageButton
-                android:layout_width="65dp"
-                android:layout_height="65dp"
-                android:scaleType="fitXY"
-                android:background="@null"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                android:src="@drawable/meditateicon"/>
-
-            <ImageButton
-                android:layout_width="65dp"
-                android:layout_height="65dp"
-                android:scaleType="fitXY"
-                android:background="@null"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                android:src="@drawable/relaxicon"/>
-
-            <ImageButton
-                android:layout_width="65dp"
-                android:layout_height="65dp"
-                android:scaleType="fitXY"
-                android:background="@null"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                android:src="@drawable/moodicon"/>
-            
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:orientation="horizontal">
-
-
-            <ImageButton
-                android:layout_width="65dp"
-                android:layout_height="65dp"
-                android:scaleType="fitXY"
-                android:background="@null"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                android:src="@drawable/chaticon"/>
-
-            <ImageButton
-                android:layout_width="65dp"
-                android:layout_height="65dp"
-                android:scaleType="fitXY"
-                android:background="@null"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                android:src="@drawable/blogicon"/>
-
-            <ImageButton
-                android:layout_width="65dp"
-                android:layout_height="65dp"
-                android:scaleType="fitXY"
-                android:background="@null"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                android:src="@drawable/helpicon"/>
-            
-
-        </LinearLayout>
-
-    </LinearLayout>
-
-    <ImageButton
-        android:id="@+id/button"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:background="@drawable/nextarrowbg"
-        android:layout_marginBottom="8dp"
-        android:elevation="5dp"
-        android:src="@drawable/ic_arrow_drop_up_black_24dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="55dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginEnd="8dp"
-        android:elevation="10dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
-        android:orientation="horizontal"
-        android:background="@drawable/floatmenubg"
-        android:gravity="center_vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/button"
-        app:layout_constraintStart_toStartOf="parent">
-
-        <ImageButton
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_margin="8dp"
-            android:background="@null"
-            android:scaleType="fitXY"
-            android:src="@drawable/keyboardicon" />
-
-        <ImageButton
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_margin="8dp"
-            android:background="@null"
-            android:scaleType="fitXY"
-            android:id="@+id/downbeatIconImageButton"
-            android:src="@drawable/appicon"  />
-
-        <ImageButton
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_margin="8dp"
-            android:background="@null"
-            android:scaleType="fitXY"
-            android:src="@drawable/micicon" />
-
-    </LinearLayout>
-
-    <ListView
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/relativeLayout2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginBottom="70dp"
-        android:id="@+id/lv" />
+        android:gravity="center">
 
-</android.support.constraint.ConstraintLayout>
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/floatmenubg"
+            android:elevation="6dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_conversion_absoluteHeight="20dp"
+            tools:layout_conversion_absoluteWidth="158dp">
+
+            <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_margin="8dp"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/keyboardicon" />
+
+            <ImageButton
+                android:id="@+id/downbeatIconImageButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="8dp"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/appicon" />
+
+            <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_margin="8dp"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/micicon" />
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/lv"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_conversion_absoluteHeight="662dp"
+            tools:layout_conversion_absoluteWidth="411dp">
+
+        </ListView>
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top">
+
+
+        <LinearLayout
+            android:id="@+id/viewParent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/menubg"
+            android:elevation="50dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_conversion_absoluteHeight="190dp"
+            tools:layout_conversion_absoluteWidth="357dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="-191dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@null"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/meditateicon" />
+
+                <ImageButton
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@null"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/relaxicon" />
+
+                <ImageButton
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@null"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/moodicon" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+
+                <ImageButton
+                    android:id="@+id/btnChat"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@null"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/chaticon" />
+
+                <ImageButton
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@null"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/blogicon" />
+
+                <ImageButton
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@null"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/helpicon" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="8dp"
+                android:textColor="#696969"
+                android:text="Swipe Down/Up"/>
+
+        </LinearLayout>
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</com.sothree.slidinguppanel.SlidingUpPanelLayout>
