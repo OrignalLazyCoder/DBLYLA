@@ -9,7 +9,7 @@
     android:gravity="top"
     app:umanoFadeColor="@android:color/transparent"
     app:umanoOverlay="false"
-    app:umanoPanelHeight="50dp"
+    app:umanoPanelHeight="25dp"
     app:umanoShadowHeight="20dp"
     >
 
@@ -106,6 +106,7 @@
                 android:orientation="horizontal">
 
                 <ImageButton
+                    android:id="@+id/meditateIconImageButton"
                     android:layout_width="65dp"
                     android:layout_height="65dp"
                     android:layout_marginLeft="20dp"

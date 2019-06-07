@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\DownBeatliveyourlifeagain\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
+            "outputFile": "C:\\Users\\Raja\\StudioProjects\\DBLYLA\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\lazycoderr\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\67b1176935bda5271a0100d7d08d86cd\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "source": "C:\\Users\\Raja\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64d0e50fd68330e18086a91d334cd8bb\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

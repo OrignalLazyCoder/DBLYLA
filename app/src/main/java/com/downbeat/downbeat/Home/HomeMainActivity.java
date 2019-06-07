@@ -7,12 +7,13 @@ import android.view.View;
 import android.widget.ImageButton;
 
 import com.downbeat.downbeat.MainActivity;
+import com.downbeat.downbeat.Meditate.MeditateActivity;
 import com.downbeat.downbeat.R;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class HomeMainActivity extends AppCompatActivity {
 
-    ImageButton downbeatIconImageButton;
+    ImageButton downbeatIconImageButton, meditateIconImageButton;
 
     private FirebaseAuth firebaseAuth;
 
@@ -24,11 +25,17 @@ public class HomeMainActivity extends AppCompatActivity {
         firebaseAuth = FirebaseAuth.getInstance();
 
         downbeatIconImageButton = findViewById(R.id.downbeatIconImageButton);
+        meditateIconImageButton = findViewById(R.id.meditateIconImageButton);
 
         firebaseAuth = FirebaseAuth.getInstance();
 
-
-
+        meditateIconImageButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), MeditateActivity.class));
+                finish();
+            }
+        });
         downbeatIconImageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
