@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:2:1-24:12
+ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:2:1-26:12
 MERGED from [com.sothree.slidinguppanel:library:3.4.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\library-3.4.0.aar\0298cfda1da1f68a8937c99795b27cdd\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:design:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\9d8c48ad9e7a6a813b3e2b6a23ca1500\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\67b1176935bda5271a0100d7d08d86cd\AndroidManifest.xml:17:1-22:12
@@ -65,25 +65,25 @@ MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\lazycoderr\.gradle
 MERGED from [com.android.support:documentfile:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\55e6c3fc8e06c4e8b209ecc38155b8c3\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\79db326a2db21fa1ac9e031155349d1b\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:print:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\c16846aaa87c4e65bb67565a7c02992f\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:2:1-26:12
 	package
 		ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:3:5-36
 		INJECTED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml
 		INJECTED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml
-		ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:2:1-24:12
+		ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:2:1-26:12
 		INJECTED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml
-		ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:2:1-24:12
+		ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:2:1-26:12
 		INJECTED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:5:5-22:19
+ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:5:5-24:19
 MERGED from [com.sothree.slidinguppanel:library:3.4.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\library-3.4.0.aar\0298cfda1da1f68a8937c99795b27cdd\AndroidManifest.xml:9:5-20
 MERGED from [com.sothree.slidinguppanel:library:3.4.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\library-3.4.0.aar\0298cfda1da1f68a8937c99795b27cdd\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:28.0.0] C:\Users\lazycoderr\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\9d8c48ad9e7a6a813b3e2b6a23ca1500\AndroidManifest.xml:22:5-20
@@ -151,31 +151,31 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\lazycoderr
 	android:theme
 		ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:11:9-40
 activity#com.downbeat.downbeat.Meditate.MeditateActivity
-ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:12:9-72
+ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:12:9-18:20
 	android:name
 		ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:12:19-60
-activity#com.downbeat.downbeat.Home.HomeMainActivity
-ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:13:9-68
-	android:name
-		ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:13:19-56
-activity#com.downbeat.downbeat.Login.Login
-ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:14:9-49
-	android:name
-		ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:14:19-46
-activity#com.downbeat.downbeat.MainActivity
-ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:15:9-21:20
-	android:name
-		ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:15:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:16:13-20:29
+ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN
-ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:17:17-69
+ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:14:17-69
 	android:name
-		ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:17:25-66
+		ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:14:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:19:17-77
+ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:16:17-77
 	android:name
-		ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:19:27-74
+		ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:16:27-74
+activity#com.downbeat.downbeat.Home.HomeMainActivity
+ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:19:9-68
+	android:name
+		ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:19:19-56
+activity#com.downbeat.downbeat.Login.Login
+ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:20:9-49
+	android:name
+		ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:20:19-46
+activity#com.downbeat.downbeat.MainActivity
+ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:21:9-23:20
+	android:name
+		ADDED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml:21:19-47
 uses-sdk
 INJECTED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\DownBeatliveyourlifeagain\app\src\main\AndroidManifest.xml

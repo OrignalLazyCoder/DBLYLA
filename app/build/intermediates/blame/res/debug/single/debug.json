@@ -236,6 +236,10 @@
         "source": "C:\\Users\\lazycoderr\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\67b1176935bda5271a0100d7d08d86cd\\res\\color-v23\\abc_btn_colored_text_material.xml"
     },
     {
+        "merged": "D:\\DownBeatliveyourlifeagain\\app\\build\\intermediates\\res\\merged\\debug\\drawable_meditatebg.png.flat",
+        "source": "D:\\DownBeatliveyourlifeagain\\app\\src\\main\\res\\drawable\\meditatebg.png"
+    },
+    {
         "merged": "D:\\DownBeatliveyourlifeagain\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ratingbar_material.xml.flat",
         "source": "C:\\Users\\lazycoderr\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\67b1176935bda5271a0100d7d08d86cd\\res\\drawable\\abc_ratingbar_material.xml"
     },
@@ -644,6 +648,10 @@
         "source": "C:\\Users\\lazycoderr\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\67b1176935bda5271a0100d7d08d86cd\\res\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
     {
+        "merged": "D:\\DownBeatliveyourlifeagain\\app\\build\\intermediates\\res\\merged\\debug\\drawable_stopbutton.png.flat",
+        "source": "D:\\DownBeatliveyourlifeagain\\app\\src\\main\\res\\drawable\\stopbutton.png"
+    },
+    {
         "merged": "D:\\DownBeatliveyourlifeagain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_longpressed_holo.9.png.flat",
         "source": "C:\\Users\\lazycoderr\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\67b1176935bda5271a0100d7d08d86cd\\res\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png"
     },
@@ -722,6 +730,10 @@
     {
         "merged": "D:\\DownBeatliveyourlifeagain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\lazycoderr\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\67b1176935bda5271a0100d7d08d86cd\\res\\drawable-ldrtl-xxhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "D:\\DownBeatliveyourlifeagain\\app\\build\\intermediates\\res\\merged\\debug\\layout_recycler_item_meditate.xml.flat",
+        "source": "D:\\DownBeatliveyourlifeagain\\app\\src\\main\\res\\layout\\recycler_item_meditate.xml"
     },
     {
         "merged": "D:\\DownBeatliveyourlifeagain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
@@ -1076,12 +1088,12 @@
         "source": "C:\\Users\\lazycoderr\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\67b1176935bda5271a0100d7d08d86cd\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
-        "merged": "D:\\DownBeatliveyourlifeagain\\app\\build\\intermediates\\res\\merged\\debug\\color_common_google_signin_btn_text_light.xml.flat",
-        "source": "C:\\Users\\lazycoderr\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\4f55a7b36c35c78ecbe578f977382519\\res\\color\\common_google_signin_btn_text_light.xml"
-    },
-    {
         "merged": "D:\\DownBeatliveyourlifeagain\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_fade_in.xml.flat",
         "source": "C:\\Users\\lazycoderr\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\67b1176935bda5271a0100d7d08d86cd\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "D:\\DownBeatliveyourlifeagain\\app\\build\\intermediates\\res\\merged\\debug\\color_common_google_signin_btn_text_light.xml.flat",
+        "source": "C:\\Users\\lazycoderr\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\4f55a7b36c35c78ecbe578f977382519\\res\\color\\common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "D:\\DownBeatliveyourlifeagain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
@@ -1192,6 +1204,10 @@
         "source": "C:\\Users\\lazycoderr\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\67b1176935bda5271a0100d7d08d86cd\\res\\drawable-mdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
+        "merged": "D:\\DownBeatliveyourlifeagain\\app\\build\\intermediates\\res\\merged\\debug\\drawable_playbutton.png.flat",
+        "source": "D:\\DownBeatliveyourlifeagain\\app\\src\\main\\res\\drawable\\playbutton.png"
+    },
+    {
         "merged": "D:\\DownBeatliveyourlifeagain\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_cab_background_top_material.xml.flat",
         "source": "C:\\Users\\lazycoderr\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\67b1176935bda5271a0100d7d08d86cd\\res\\drawable\\abc_cab_background_top_material.xml"
     },
@@ -1206,6 +1222,10 @@
     {
         "merged": "D:\\DownBeatliveyourlifeagain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
         "source": "C:\\Users\\lazycoderr\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\67b1176935bda5271a0100d7d08d86cd\\res\\drawable-xhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "D:\\DownBeatliveyourlifeagain\\app\\build\\intermediates\\res\\merged\\debug\\drawable_playerbg.xml.flat",
+        "source": "D:\\DownBeatliveyourlifeagain\\app\\src\\main\\res\\drawable\\playerbg.xml"
     },
     {
         "merged": "D:\\DownBeatliveyourlifeagain\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
