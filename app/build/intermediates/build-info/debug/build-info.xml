@@ -2,35 +2,36 @@
 <instant-run
     abi="armeabi-v7a,armeabi"
     api-level="22"
-    build-mode="COLD"
+    build-mode="HOT_WARM"
     density="xhdpi"
     format="10"
     plugin-version="3.3.2"
-    timestamp="1559716883750"
+    timestamp="1560071546114"
     token="-1021203614000798811"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="726" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="57" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="124" />
     <task
         name="verifier"
-        duration="0" />
+        duration="25" />
 
     <artifact
-        location="D:\DownBeatliveyourlifeagain\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-        type="SPLIT_MAIN" />
+        location="D:\DownBeatliveyourlifeagain\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
 
     <build
         build-mode="FULL"
-        timestamp="1559716279772"
-        verifier="FULL_BUILD_REQUESTED" >
+        ir-eligibility="R_CLASS_CHANGE"
+        timestamp="1560071102098"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="D:\DownBeatliveyourlifeagain\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
@@ -44,19 +45,19 @@
             location="D:\DownBeatliveyourlifeagain\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
+            location="D:\DownBeatliveyourlifeagain\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
             location="D:\DownBeatliveyourlifeagain\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="D:\DownBeatliveyourlifeagain\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="D:\DownBeatliveyourlifeagain\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
             location="D:\DownBeatliveyourlifeagain\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
             location="D:\DownBeatliveyourlifeagain\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\DownBeatliveyourlifeagain\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
             location="D:\DownBeatliveyourlifeagain\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
@@ -71,19 +72,22 @@
     <build
         build-mode="COLD"
         ir-eligibility="COMPATIBLE"
-        timestamp="1559716450433"
+        timestamp="1560071496928"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="D:\DownBeatliveyourlifeagain\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="D:\DownBeatliveyourlifeagain\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1559716883750"
-        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="D:\DownBeatliveyourlifeagain\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1560071546114"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="D:\DownBeatliveyourlifeagain\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>
