@@ -8,6 +8,7 @@ import android.widget.ImageButton;
 
 import com.downbeat.downbeat.Home.HomeMainActivity;
 import com.downbeat.downbeat.Login.Login;
+import com.downbeat.downbeat.Meditate.MeditateActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        //startActivity(new Intent(this, MeditateActivity.class));
          nextBtn = findViewById(R.id.nextButton);
 
         nextBtn.setOnClickListener(new View.OnClickListener() {

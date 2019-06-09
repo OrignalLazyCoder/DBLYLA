@@ -116,6 +116,10 @@
         "source": "C:\\Users\\Raja\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\4dcbd6d2fe104118e6b679d8602b374c\\res\\color\\common_google_signin_btn_text_light.xml"
     },
     {
+        "merged": "C:\\Users\\Raja\\StudioProjects\\DBLYLA\\app\\build\\intermediates\\res\\merged\\debug\\layout_recycler_item_meditate.xml.flat",
+        "source": "C:\\Users\\Raja\\StudioProjects\\DBLYLA\\app\\src\\main\\res\\layout\\recycler_item_meditate.xml"
+    },
+    {
         "merged": "C:\\Users\\Raja\\StudioProjects\\DBLYLA\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_text_input_password_icon.xml.flat",
         "source": "C:\\Users\\Raja\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\e45ce7f619a0b6c22efab0819e8cdf48\\res\\layout\\design_text_input_password_icon.xml"
     },
@@ -300,6 +304,10 @@
         "source": "C:\\Users\\Raja\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64d0e50fd68330e18086a91d334cd8bb\\res\\drawable-mdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\Raja\\StudioProjects\\DBLYLA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_playerbg.xml.flat",
+        "source": "C:\\Users\\Raja\\StudioProjects\\DBLYLA\\app\\src\\main\\res\\drawable\\playerbg.xml"
+    },
+    {
         "merged": "C:\\Users\\Raja\\StudioProjects\\DBLYLA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
         "source": "C:\\Users\\Raja\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64d0e50fd68330e18086a91d334cd8bb\\res\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
@@ -386,6 +394,10 @@
     {
         "merged": "C:\\Users\\Raja\\StudioProjects\\DBLYLA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_longpressed_holo.9.png.flat",
         "source": "C:\\Users\\Raja\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64d0e50fd68330e18086a91d334cd8bb\\res\\drawable-xxhdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Raja\\StudioProjects\\DBLYLA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_btn_pause_audio.png.flat",
+        "source": "C:\\Users\\Raja\\StudioProjects\\DBLYLA\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\btn_pause_audio.png"
     },
     {
         "merged": "C:\\Users\\Raja\\StudioProjects\\DBLYLA\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_chip_text_color.xml.flat",
@@ -1272,6 +1284,10 @@
         "source": "C:\\Users\\Raja\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64d0e50fd68330e18086a91d334cd8bb\\res\\drawable-xxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\Raja\\StudioProjects\\DBLYLA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_pause_audio.png.flat",
+        "source": "C:\\Users\\Raja\\StudioProjects\\DBLYLA\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\btn_pause_audio.png"
+    },
+    {
         "merged": "C:\\Users\\Raja\\StudioProjects\\DBLYLA\\app\\build\\intermediates\\res\\merged\\debug\\layout-watch-v20_abc_alert_dialog_button_bar_material.xml.flat",
         "source": "C:\\Users\\Raja\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64d0e50fd68330e18086a91d334cd8bb\\res\\layout-watch-v20\\abc_alert_dialog_button_bar_material.xml"
     },
@@ -1488,6 +1504,10 @@
         "source": "C:\\Users\\Raja\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64d0e50fd68330e18086a91d334cd8bb\\res\\color\\abc_hint_foreground_material_dark.xml"
     },
     {
+        "merged": "C:\\Users\\Raja\\StudioProjects\\DBLYLA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_btn_pause_audio.png.flat",
+        "source": "C:\\Users\\Raja\\StudioProjects\\DBLYLA\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\btn_pause_audio.png"
+    },
+    {
         "merged": "C:\\Users\\Raja\\StudioProjects\\DBLYLA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\Raja\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64d0e50fd68330e18086a91d334cd8bb\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
@@ -1648,6 +1668,10 @@
         "source": "C:\\Users\\Raja\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\4dcbd6d2fe104118e6b679d8602b374c\\res\\drawable-xhdpi-v4\\common_full_open_on_phone.png"
     },
     {
+        "merged": "C:\\Users\\Raja\\StudioProjects\\DBLYLA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_meditatebg.png.flat",
+        "source": "C:\\Users\\Raja\\StudioProjects\\DBLYLA\\app\\src\\main\\res\\drawable\\meditatebg.png"
+    },
+    {
         "merged": "C:\\Users\\Raja\\StudioProjects\\DBLYLA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_cab_background_top_material.xml.flat",
         "source": "C:\\Users\\Raja\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64d0e50fd68330e18086a91d334cd8bb\\res\\drawable\\abc_cab_background_top_material.xml"
     },
@@ -1726,6 +1750,10 @@
     {
         "merged": "C:\\Users\\Raja\\StudioProjects\\DBLYLA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_swap_vertical_circle_black_24dp.png.flat",
         "source": "C:\\Users\\Raja\\StudioProjects\\DBLYLA\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_swap_vertical_circle_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Raja\\StudioProjects\\DBLYLA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_btn_pause_audio.xml.flat",
+        "source": "C:\\Users\\Raja\\StudioProjects\\DBLYLA\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\btn_pause_audio.xml"
     },
     {
         "merged": "C:\\Users\\Raja\\StudioProjects\\DBLYLA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -2008,6 +2036,10 @@
         "source": "C:\\Users\\Raja\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64d0e50fd68330e18086a91d334cd8bb\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
+        "merged": "C:\\Users\\Raja\\StudioProjects\\DBLYLA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_stopbutton.png.flat",
+        "source": "C:\\Users\\Raja\\StudioProjects\\DBLYLA\\app\\src\\main\\res\\drawable\\stopbutton.png"
+    },
+    {
         "merged": "C:\\Users\\Raja\\StudioProjects\\DBLYLA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
         "source": "C:\\Users\\Raja\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64d0e50fd68330e18086a91d334cd8bb\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
@@ -2042,6 +2074,10 @@
     {
         "merged": "C:\\Users\\Raja\\StudioProjects\\DBLYLA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_arrow_drop_right_black_24dp.xml.flat",
         "source": "C:\\Users\\Raja\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64d0e50fd68330e18086a91d334cd8bb\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Raja\\StudioProjects\\DBLYLA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_playbutton.png.flat",
+        "source": "C:\\Users\\Raja\\StudioProjects\\DBLYLA\\app\\src\\main\\res\\drawable\\playbutton.png"
     },
     {
         "merged": "C:\\Users\\Raja\\StudioProjects\\DBLYLA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
@@ -2224,6 +2260,10 @@
         "source": "C:\\Users\\Raja\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\e45ce7f619a0b6c22efab0819e8cdf48\\res\\drawable\\ic_mtrl_chip_close_circle.xml"
     },
     {
+        "merged": "C:\\Users\\Raja\\StudioProjects\\DBLYLA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_btn_pause_audio.png.flat",
+        "source": "C:\\Users\\Raja\\StudioProjects\\DBLYLA\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\btn_pause_audio.png"
+    },
+    {
         "merged": "C:\\Users\\Raja\\StudioProjects\\DBLYLA\\app\\build\\intermediates\\res\\merged\\debug\\color_switch_thumb_material_light.xml.flat",
         "source": "C:\\Users\\Raja\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64d0e50fd68330e18086a91d334cd8bb\\res\\color\\switch_thumb_material_light.xml"
     },
@@ -2282,6 +2322,10 @@
     {
         "merged": "C:\\Users\\Raja\\StudioProjects\\DBLYLA\\app\\build\\intermediates\\res\\merged\\debug\\layout_select_dialog_multichoice_material.xml.flat",
         "source": "C:\\Users\\Raja\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\64d0e50fd68330e18086a91d334cd8bb\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Raja\\StudioProjects\\DBLYLA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_btn_pause_audio.png.flat",
+        "source": "C:\\Users\\Raja\\StudioProjects\\DBLYLA\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\btn_pause_audio.png"
     },
     {
         "merged": "C:\\Users\\Raja\\StudioProjects\\DBLYLA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
@@ -2354,6 +2398,10 @@
     {
         "merged": "C:\\Users\\Raja\\StudioProjects\\DBLYLA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
         "source": "C:\\Users\\Raja\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\4dcbd6d2fe104118e6b679d8602b374c\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Raja\\StudioProjects\\DBLYLA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_btn_pause_audio.png.flat",
+        "source": "C:\\Users\\Raja\\StudioProjects\\DBLYLA\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\btn_pause_audio.png"
     },
     {
         "merged": "C:\\Users\\Raja\\StudioProjects\\DBLYLA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_item_background_holo_light.xml.flat",

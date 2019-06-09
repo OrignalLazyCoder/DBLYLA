@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.downbeat.downbeat">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/applogo"
@@ -9,9 +11,11 @@
         android:roundIcon="@drawable/applogo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Meditate.MeditateActivity"></activity>
-        <activity android:name=".Home.HomeMainActivity"></activity>
-        <activity android:name=".Login.Login" />
+        <service
+            android:name=".Services.MyAudioPlayService"
+            android:enabled="true"
+            android:exported="true" />
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,6 +23,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Home.HomeMainActivity" />
+        <activity android:name=".Login.Login" />
+        <activity android:name=".Meditate.MeditateActivity" />
     </application>
 
 </manifest>

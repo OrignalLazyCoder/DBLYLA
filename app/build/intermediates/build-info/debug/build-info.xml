@@ -2,40 +2,27 @@
 <instant-run
     abi="arm64-v8a,armeabi-v7a,armeabi"
     api-level="24"
-    build-mode="COLD"
+    build-mode="FULL"
     density="xxhdpi"
     format="10"
-    ir-eligibility="CLASS_ADDED"
     plugin-version="3.3.2"
-    timestamp="1559935789393"
+    timestamp="1560093034822"
     token="-2680813981011378877"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="5358" />
+        duration="615" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="875" />
+        duration="82" />
     <task
         name="verifier"
-        duration="202" />
+        duration="21" />
 
-    <artifact
-        location="C:\Users\Raja\StudioProjects\DBLYLA\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Raja\StudioProjects\DBLYLA\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Raja\StudioProjects\DBLYLA\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Raja\StudioProjects\DBLYLA\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-        type="SPLIT" />
     <artifact
         location="C:\Users\Raja\StudioProjects\DBLYLA\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
         type="SPLIT" />
@@ -43,7 +30,16 @@
         location="C:\Users\Raja\StudioProjects\DBLYLA\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\Raja\StudioProjects\DBLYLA\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        location="C:\Users\Raja\StudioProjects\DBLYLA\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Raja\StudioProjects\DBLYLA\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Raja\StudioProjects\DBLYLA\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Raja\StudioProjects\DBLYLA\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\Raja\StudioProjects\DBLYLA\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
@@ -52,7 +48,13 @@
         location="C:\Users\Raja\StudioProjects\DBLYLA\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\Raja\StudioProjects\DBLYLA\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        location="C:\Users\Raja\StudioProjects\DBLYLA\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Raja\StudioProjects\DBLYLA\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Raja\StudioProjects\DBLYLA\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\Raja\StudioProjects\DBLYLA\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
@@ -60,11 +62,11 @@
 
     <build
         build-mode="FULL"
-        timestamp="1559935492067"
+        timestamp="1560093034822"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\Raja\StudioProjects\DBLYLA\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
+            location="C:\Users\Raja\StudioProjects\DBLYLA\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
         <artifact
             location="C:\Users\Raja\StudioProjects\DBLYLA\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
@@ -93,46 +95,7 @@
             location="C:\Users\Raja\StudioProjects\DBLYLA\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Raja\StudioProjects\DBLYLA\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
-        <artifact
             location="C:\Users\Raja\StudioProjects\DBLYLA\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="CLASS_ADDED"
-        timestamp="1559935789393"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\Raja\StudioProjects\DBLYLA\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Raja\StudioProjects\DBLYLA\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Raja\StudioProjects\DBLYLA\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Raja\StudioProjects\DBLYLA\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Raja\StudioProjects\DBLYLA\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Raja\StudioProjects\DBLYLA\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Raja\StudioProjects\DBLYLA\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Raja\StudioProjects\DBLYLA\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Raja\StudioProjects\DBLYLA\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Raja\StudioProjects\DBLYLA\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Raja\StudioProjects\DBLYLA\app\build\intermediates\instant-run-apk\debug\app-debug.apk"

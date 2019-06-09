@@ -1043,6 +1043,7 @@ drawable avd_hide_password
 drawable avd_show_password
 drawable below_shadow
 drawable blogicon
+drawable btn_pause_audio
 drawable chaticon
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
@@ -1083,6 +1084,7 @@ drawable ic_swap_vertical_circle_black_24dp
 drawable keyboardicon
 drawable loginbg
 drawable mainbg
+drawable meditatebg
 drawable meditateicon
 drawable menubg
 drawable micicon
@@ -1104,7 +1106,10 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable playbutton
+drawable playerbg
 drawable relaxicon
+drawable stopbutton
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
@@ -1152,9 +1157,12 @@ id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
 id btnChat
+id btnPlayAudio
 id btnSlidingMenu
+id btnStopAudio
 id buttonPanel
 id cancel_action
+id cardViewMeditate
 id cbTermsAndCondition
 id center
 id center_horizontal
@@ -1215,6 +1223,7 @@ id info
 id invisible
 id italic
 id item_touch_helper_previous_elevation
+id ivMediaImage
 id labeled
 id largeLabel
 id left
@@ -1222,6 +1231,7 @@ id light
 id line1
 id line3
 id linearLayout
+id linearLayout2
 id listMode
 id list_item
 id lv
@@ -1253,6 +1263,7 @@ id pin
 id progress_circular
 id progress_horizontal
 id radio
+id recycler
 id relativeLayout
 id relativeLayout2
 id right
@@ -1329,6 +1340,7 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
+id tvAudioName
 id uniform
 id unlabeled
 id up
@@ -1426,6 +1438,7 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout recycler_item_meditate
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material

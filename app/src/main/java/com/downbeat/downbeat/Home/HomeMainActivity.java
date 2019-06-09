@@ -24,6 +24,8 @@ public class HomeMainActivity extends AppCompatActivity {
 
         firebaseAuth = FirebaseAuth.getInstance();
 
+
+
         downbeatIconImageButton = findViewById(R.id.downbeatIconImageButton);
         meditateIconImageButton = findViewById(R.id.meditateIconImageButton);
 

@@ -9,8 +9,8 @@
         android:minSdkVersion="15"
         android:targetSdkVersion="28" />
 
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
     <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
@@ -25,9 +25,11 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.downbeat.downbeat.Meditate.MeditateActivity" />
-        <activity android:name="com.downbeat.downbeat.Home.HomeMainActivity" />
-        <activity android:name="com.downbeat.downbeat.Login.Login" />
+        <service
+            android:name="com.downbeat.downbeat.Services.MyAudioPlayService"
+            android:enabled="true"
+            android:exported="true" />
+
         <activity android:name="com.downbeat.downbeat.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -35,6 +37,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.downbeat.downbeat.Home.HomeMainActivity" />
+        <activity android:name="com.downbeat.downbeat.Login.Login" />
+        <activity android:name="com.downbeat.downbeat.Meditate.MeditateActivity" />
         <activity
             android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
             android:excludeFromRecents="true"
@@ -48,6 +53,9 @@
             android:exported="false" >
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
