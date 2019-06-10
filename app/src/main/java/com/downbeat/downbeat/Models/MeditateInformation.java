@@ -9,7 +9,9 @@ public class MeditateInformation {
     private Date uploadDate;
     private int likeCount, playCount;
 
-    public MeditateInformation() {}
+    public MeditateInformation() {
+    }
+
     public MeditateInformation(String userId, String copyright, String name, String fullPath, String type, Date uploadDate, int likeCount, int playCount) {
         this.userId = userId;
         this.copyright = copyright;

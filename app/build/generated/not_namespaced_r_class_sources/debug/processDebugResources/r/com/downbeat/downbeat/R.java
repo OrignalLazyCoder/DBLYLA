@@ -5512,7 +5512,7 @@ public final class R {
     public static final int showHome=0x7f0800b4;
     public static final int showTitle=0x7f0800b5;
     public static final int sign_in_button=0x7f0800b6;
-    public static final int sliding_layout=0x7f0800b7;
+    public static final int slidingTopMenuLayout=0x7f0800b7;
     public static final int smallLabel=0x7f0800b8;
     public static final int snackbar_action=0x7f0800b9;
     public static final int snackbar_text=0x7f0800ba;

@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
 import com.downbeat.downbeat.Models.MeditateInformation;
 import com.downbeat.downbeat.R;
 
@@ -18,16 +19,10 @@ public class MeditateAdapter extends RecyclerView.Adapter<MeditateAdapter.ViewHo
     private ArrayList<MeditateInformation> meditateInformations;
     private MeditateAdapterInterface meditateAdapterInterface;
 
-    public interface MeditateAdapterInterface {
-
-        void onAudioSelect(int index);
-    }
-
     public MeditateAdapter(Context context, ArrayList<MeditateInformation> meditateInformations) {
         this.meditateInformations = meditateInformations;
         this.meditateAdapterInterface = (MeditateAdapterInterface) context;
     }
-
 
     @NonNull
     @Override
@@ -51,12 +46,17 @@ public class MeditateAdapter extends RecyclerView.Adapter<MeditateAdapter.ViewHo
         return meditateInformations.size();
     }
 
-    public class ViewHolder extends RecyclerView.ViewHolder {
+    public interface MeditateAdapterInterface {
+
+        void onAudioSelect(int index);
+    }
+
+    class ViewHolder extends RecyclerView.ViewHolder {
 
         TextView tvAudioName;
         ImageView imageView;
 
-        public ViewHolder(@NonNull final View itemView) {
+        ViewHolder(@NonNull final View itemView) {
             super(itemView);
 
             tvAudioName = itemView.findViewById(R.id.tvAudioName);
@@ -65,7 +65,7 @@ public class MeditateAdapter extends RecyclerView.Adapter<MeditateAdapter.ViewHo
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    meditateAdapterInterface.onAudioSelect(meditateInformations.indexOf((MeditateInformation) v.getTag()));
+                    meditateAdapterInterface.onAudioSelect(meditateInformations.indexOf(v.getTag()));
                 }
             });
         }

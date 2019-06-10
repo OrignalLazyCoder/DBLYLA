@@ -1295,7 +1295,7 @@ id showCustom
 id showHome
 id showTitle
 id sign_in_button
-id sliding_layout
+id slidingTopMenuLayout
 id smallLabel
 id snackbar_action
 id snackbar_text

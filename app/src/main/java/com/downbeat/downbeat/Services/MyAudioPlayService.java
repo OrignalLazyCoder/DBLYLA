@@ -18,27 +18,6 @@ public class MyAudioPlayService extends Service implements MediaPlayer.OnComplet
     public MyAudioPlayService() {
     }
 
-    public class MyAudioPlayServiceBinder extends Binder {
-        public MyAudioPlayServiceBinder getService() {
-            return MyAudioPlayServiceBinder.this;
-        }
-
-        public void pauseMusic() {
-            if (mediaPlayer.isPlaying()) {
-                mediaPlayer.pause();
-            }
-        }
-
-        public void playMusic() {
-            if (!mediaPlayer.isPlaying()) {
-                mediaPlayer.start();
-            }
-        }
-
-
-    }
-
-
     @Override
     public IBinder onBind(Intent intent) {
         // TODO: Return the communication channel to the service.
@@ -74,7 +53,7 @@ public class MyAudioPlayService extends Service implements MediaPlayer.OnComplet
                 mediaPlayer.prepareAsync();
 
             } catch (Exception e) {
-                Toast.makeText(this, "Error: "+ e.getMessage(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Error: " + e.getMessage(), Toast.LENGTH_SHORT).show();
             }
         }
 
@@ -149,6 +128,26 @@ public class MyAudioPlayService extends Service implements MediaPlayer.OnComplet
 
     @Override
     public void onSeekComplete(MediaPlayer mp) {
+
+    }
+
+    public class MyAudioPlayServiceBinder extends Binder {
+        public MyAudioPlayServiceBinder getService() {
+            return MyAudioPlayServiceBinder.this;
+        }
+
+        public void pauseMusic() {
+            if (mediaPlayer.isPlaying()) {
+                mediaPlayer.pause();
+            }
+        }
+
+        public void playMusic() {
+            if (!mediaPlayer.isPlaying()) {
+                mediaPlayer.start();
+            }
+        }
+
 
     }
 

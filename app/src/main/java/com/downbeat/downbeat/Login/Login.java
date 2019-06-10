@@ -1,13 +1,11 @@
 package com.downbeat.downbeat.Login;
 
 import android.content.Intent;
-import android.support.annotation.NonNull;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
-import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.Toast;
 
@@ -20,7 +18,6 @@ import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.android.gms.common.SignInButton;
 import com.google.android.gms.common.api.ApiException;
-import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthCredential;
@@ -34,10 +31,10 @@ import com.google.firebase.database.FirebaseDatabase;
 public class Login extends AppCompatActivity {
 
 
-    SignInButton signInButton;
-    CheckBox checkBoxTermsAndCondition;
     private static final String TAG = "SignInActivity";
     private static final int RC_SIGN_IN = 9001;
+    SignInButton signInButton;
+    CheckBox checkBoxTermsAndCondition;
     GoogleSignInClient googleSignInClient;
     private FirebaseAuth mAuth;
     private String userName;
@@ -47,8 +44,7 @@ public class Login extends AppCompatActivity {
     private String userUID;
     private FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();
     private DatabaseReference databaseReference = firebaseDatabase.getReference("users");
-    
-    
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,13 +60,13 @@ public class Login extends AppCompatActivity {
 
         googleSignInClient = GoogleSignIn.getClient(this, gso);
 
-        signInButton = (SignInButton) findViewById(R.id.sign_in_button);
-        checkBoxTermsAndCondition = (CheckBox) findViewById(R.id.cbTermsAndCondition);
-        
+        signInButton = findViewById(R.id.sign_in_button);
+        checkBoxTermsAndCondition = findViewById(R.id.cbTermsAndCondition);
+
         signInButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                
+
                 if (checkBoxTermsAndCondition.isChecked())
                     signIn();
                 else
@@ -139,7 +135,7 @@ public class Login extends AppCompatActivity {
                 });
     }
 
-    private void updateUI(FirebaseUser user,Boolean isNew) {
+    private void updateUI(FirebaseUser user, Boolean isNew) {
 
         if (user != null) {
             if (isNew) {
@@ -155,11 +151,11 @@ public class Login extends AppCompatActivity {
 //                DatabaseReference userProfileRef = databaseReference.child(userUID+"/profile");
 //                userProfileRef.setValue(userInformation);
 
-                    databaseReference.child(userUID).child("profile").setValue(userInformation);
+                databaseReference.child(userUID).child("profile").setValue(userInformation);
 
 
             }
-            startActivity(new Intent(getApplicationContext() , HomeMainActivity.class));
+            startActivity(new Intent(getApplicationContext(), HomeMainActivity.class));
 
         }
     }
