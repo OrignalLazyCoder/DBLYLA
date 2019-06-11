@@ -9,17 +9,16 @@
         android:roundIcon="@drawable/applogo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Meditate.MeditateActivity">
+        <activity android:name=".MoodManager.MoodMainActivity"></activity>
+        <activity android:name=".Meditate.MeditateActivity"></activity>
+        <activity android:name=".Home.HomeMainActivity" />
+        <activity android:name=".Login.Login" />
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name=".Home.HomeMainActivity"></activity>
-        <activity android:name=".Login.Login" />
-        <activity android:name=".MainActivity">
-
         </activity>
     </application>
 
