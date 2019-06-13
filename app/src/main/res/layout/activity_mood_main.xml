@@ -37,10 +37,30 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="20dp"
+        android:textColor="#696969"
+        android:text="How are you feeling right now?"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chart"
+        app:layout_constraintVertical_bias="0.475" />
+
     <LinearLayout
         android:id="@+id/linearLayout3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="5dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
@@ -54,13 +74,13 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.364">
+        app:layout_constraintVertical_bias="0.485">
 
         <Button
             android:id="@+id/awesomeMoodButton"
-            android:layout_width="80dp"
+            android:layout_width="70dp"
             android:layout_height="wrap_content"
-            android:layout_margin="5dp"
+            android:layout_margin="3dp"
             android:background="@drawable/moodbuttonbg"
             android:text="Awesome"
             android:textColor="#AEADF8"
@@ -68,9 +88,9 @@
 
         <Button
             android:id="@+id/happyMoodButton"
-            android:layout_width="80dp"
+            android:layout_width="70dp"
             android:layout_height="wrap_content"
-            android:layout_margin="5dp"
+            android:layout_margin="3dp"
             android:background="@drawable/moodbuttonbg"
             android:text="Happy"
             android:textColor="#AEADF8"
@@ -78,9 +98,9 @@
 
         <Button
             android:id="@+id/sadMoodButton"
-            android:layout_width="80dp"
+            android:layout_width="70dp"
             android:layout_height="wrap_content"
-            android:layout_margin="5dp"
+            android:layout_margin="3dp"
             android:background="@drawable/moodbuttonbg"
             android:text="Sad"
             android:textColor="#AEADF8"
@@ -88,9 +108,9 @@
 
         <Button
             android:id="@+id/devastatedMoodButton"
-            android:layout_width="80dp"
+            android:layout_width="70dp"
             android:layout_height="wrap_content"
-            android:layout_margin="5dp"
+            android:layout_margin="3dp"
             android:background="@drawable/moodbuttonbg"
             android:text="Devastated"
             android:textColor="#AEADF8"
@@ -99,23 +119,42 @@
     </LinearLayout>
 
     <TextView
-        android:layout_width="match_parent"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:id="@+id/moodTextView"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Mood comes here:"
+        android:text="Here are some tips to boost your mood!"
+        android:textColor="#696969"
+        android:textSize="18dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.384"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
-        app:layout_constraintVertical_bias="0.132" />
+        app:layout_constraintVertical_bias="0.11" />
 
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:id="@+id/blogRecyclerView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.338">
 
+    </android.support.v7.widget.RecyclerView>
 
 </android.support.constraint.ConstraintLayout>

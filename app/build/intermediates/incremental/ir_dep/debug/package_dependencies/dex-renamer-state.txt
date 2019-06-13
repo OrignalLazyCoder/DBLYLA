@@ -1,7 +1,7 @@
-#Mon Jun 10 13:44:13 IST 2019
-base.0=C\:\\Users\\Raja\\StudioProjects\\DBLYLA\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+#Thu Jun 13 14:25:55 IST 2019
+base.0=D\:\\DownBeatliveyourlifeagain\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
 path.1=classes2.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=C\:\\Users\\Raja\\StudioProjects\\DBLYLA\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+base.1=D\:\\DownBeatliveyourlifeagain\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10

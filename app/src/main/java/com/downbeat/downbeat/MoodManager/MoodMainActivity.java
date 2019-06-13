@@ -4,10 +4,14 @@ import android.graphics.Color;
 import android.graphics.DashPathEffect;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.downbeat.downbeat.Adapter.BlogAdapter;
+import com.downbeat.downbeat.Models.BlogInformation;
 import com.downbeat.downbeat.R;
 import com.github.mikephil.charting.charts.LineChart;
 import com.github.mikephil.charting.data.Entry;
@@ -37,12 +41,17 @@ public class MoodMainActivity extends AppCompatActivity {
     Button happyMoodButton;
     Button sadMoodButton;
     Button devastatedMoodButton;
-    TextView moodTextView;
     LineChart mChart;
+    RecyclerView recyclerView;
 
     int graphXAxisCounter = 1;
     int lastMoodValue = 0;
     int currentMoodValue = 0;
+
+    int[] imageList = new int[]{R.drawable.meditateicon , R.drawable.appicon , R.drawable.relaxicon , R.drawable.chaticon};
+    String[] blogTitle = new String[]{"1" ,"2","3","4"};
+    private  ArrayList<BlogInformation> blogInformations;
+    private BlogAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,7 +62,7 @@ public class MoodMainActivity extends AppCompatActivity {
         happyMoodButton = findViewById(R.id.happyMoodButton);
         sadMoodButton = findViewById(R.id.sadMoodButton);
         devastatedMoodButton = findViewById(R.id.devastatedMoodButton);
-        moodTextView = findViewById(R.id.moodTextView);
+        recyclerView = findViewById(R.id.blogRecyclerView);
 
         firebaseAuth = FirebaseAuth.getInstance();
         firebaseUser = firebaseAuth.getCurrentUser();
@@ -61,6 +70,12 @@ public class MoodMainActivity extends AppCompatActivity {
         mChart = findViewById(R.id.chart);
         mChart.setTouchEnabled(true);
         mChart.setPinchZoom(true);
+
+        //To make temo blog view
+        blogInformations = makeList();
+        adapter = new BlogAdapter(this , blogInformations);
+        recyclerView.setAdapter(adapter);
+        recyclerView.setLayoutManager(new LinearLayoutManager(getApplicationContext(), LinearLayoutManager.HORIZONTAL, false));
 
 
         //Make graph Visible
@@ -74,12 +89,10 @@ public class MoodMainActivity extends AppCompatActivity {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 mChart.clear();
-                moodTextView.setText("Mood values come here:");
                 ArrayList<Entry> values = new ArrayList<>();
                 for (DataSnapshot dsp : dataSnapshot.getChildren()) {
                     String dateTime  = dsp.getKey();
                     String mood   = dsp.getValue().toString();
-                    moodTextView.append("\n"+dateTime + " - > " + mood);
 //                    Toast.makeText(getApplicationContext() , dateTime + " "+ mood , Toast.LENGTH_SHORT).show();
                     switch(mood){
                         case "Awesome":currentMoodValue = 4;
@@ -93,19 +106,7 @@ public class MoodMainActivity extends AppCompatActivity {
                         case "0":currentMoodValue = 0;
                         break;
                     }
-//                    if(currentMoodValue!=0){
-//                    try {
-//                    LineGraphSeries <DataPoint> series = new LineGraphSeries< >(new DataPoint[] {
-//                            new DataPoint(graphXAxisCounter - 1, lastMoodValue),
-//                            new DataPoint(Integer.valueOf(graphXAxisCounter), currentMoodValue),
-//                    });
-//                    graph.addSeries(series);
-//                    graphXAxisCounter++;
-//                    lastMoodValue = currentMoodValue;
-//                } catch (IllegalArgumentException e) {
-//                    Toast.makeText(getApplicationContext(), e.getMessage(), Toast.LENGTH_LONG).show();
-//                }
-//                }
+
                     if(currentMoodValue!=0) {
                         values.add(new Entry(graphXAxisCounter, currentMoodValue));
                         graphXAxisCounter++;
@@ -187,5 +188,18 @@ public class MoodMainActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    private ArrayList<BlogInformation> makeList() {
+
+        ArrayList<BlogInformation> blogInformation = new ArrayList<>();
+        
+        for(int i=0 ; i < 4 ; i++){
+            BlogInformation j = new BlogInformation();
+            j.setImageUrl(imageList[i]);
+            j.setBlogTitle(blogTitle[i]);
+            blogInformation.add(j);
+        }
+        return blogInformation;
     }
 }
