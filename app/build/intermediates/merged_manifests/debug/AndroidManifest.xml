@@ -39,6 +39,7 @@
         <activity android:name="com.downbeat.downbeat.Home.HomeMainActivity" />
         <activity android:name="com.downbeat.downbeat.Login.Login" />
         <activity android:name="com.downbeat.downbeat.Meditate.MeditateActivity" />
+        <activity android:name="com.downbeat.downbeat.MoodManager.MoodMainActivity" />
         <activity
             android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
             android:excludeFromRecents="true"

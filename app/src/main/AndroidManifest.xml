@@ -26,6 +26,7 @@
         <activity android:name=".Home.HomeMainActivity" />
         <activity android:name=".Login.Login" />
         <activity android:name=".Meditate.MeditateActivity" />
+        <activity android:name=".MoodManager.MoodMainActivity"/>
     </application>
 
 </manifest>

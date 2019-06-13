@@ -62,6 +62,7 @@ public class MeditateActivity extends AppCompatActivity implements MeditateAdapt
         firebaseStorage = FirebaseStorage.getInstance();
         storageReference = firebaseStorage.getReference();
 
+        tvAudioName.setText("");
         meditateInformations = new ArrayList<>();
         populateMeditateInformationList();
 

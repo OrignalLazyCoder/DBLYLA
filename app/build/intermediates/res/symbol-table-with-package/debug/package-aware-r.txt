@@ -15,10 +15,6 @@ anim design_bottom_sheet_slide_in
 anim design_bottom_sheet_slide_out
 anim design_snackbar_in
 anim design_snackbar_out
-anim enter_bottom_to_top
-anim enter_top_to_bottom
-anim exit_bottom_to_top
-anim exit_top_to_bottom
 animator design_appbar_state_list_animator
 animator design_fab_hide_motion_spec
 animator design_fab_show_motion_spec
@@ -435,6 +431,10 @@ attr searchViewStyle
 attr seekBarStyle
 attr selectableItemBackground
 attr selectableItemBackgroundBorderless
+attr seriesColor
+attr seriesData
+attr seriesTitle
+attr seriesType
 attr showAsAction
 attr showDividers
 attr showMotionSpec
@@ -1088,6 +1088,8 @@ drawable meditatebg
 drawable meditateicon
 drawable menubg
 drawable micicon
+drawable moodbg
+drawable moodbuttonbg
 drawable moodicon
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
@@ -1147,18 +1149,18 @@ id always
 id anchored
 id async
 id auto
+id awesomeMoodButton
 id barrier
 id beginning
 id blocking
+id blogIconImageButton
 id bottom
 id browser_actions_header_text
 id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
-id btnChat
 id btnPlayAudio
-id btnSlidingMenu
 id btnStopAudio
 id buttonPanel
 id cancel_action
@@ -1168,6 +1170,8 @@ id center
 id center_horizontal
 id center_vertical
 id chains
+id chart
+id chatIconImageButton
 id checkbox
 id chronometer
 id clip_horizontal
@@ -1188,6 +1192,7 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
+id devastatedMoodButton
 id dimensions
 id direct
 id disableHome
@@ -1211,6 +1216,8 @@ id ghost_view
 id gone
 id group_divider
 id groups
+id happyMoodButton
+id helpIconImageButton
 id hidden
 id home
 id homeAsUp
@@ -1232,6 +1239,7 @@ id line1
 id line3
 id linearLayout
 id linearLayout2
+id linearLayout3
 id listMode
 id list_item
 id lv
@@ -1241,6 +1249,8 @@ id meditateIconImageButton
 id message
 id middle
 id mini
+id moodIconImageButton
+id moodTextView
 id mtrl_child_content_container
 id mtrl_internal_children_alpha_tag
 id multiply
@@ -1266,9 +1276,11 @@ id radio
 id recycler
 id relativeLayout
 id relativeLayout2
+id relaxIconImageButton
 id right
 id right_icon
 id right_side
+id sadMoodButton
 id save_image_matrix
 id save_non_transition_alpha
 id save_scale_type
@@ -1333,7 +1345,6 @@ id titleDividerNoCustom
 id title_template
 id top
 id topPanel
-id topSlidingMenuFrag
 id touch_outside
 id transition_current_scene
 id transition_layout_save
@@ -1404,6 +1415,7 @@ layout activity_home_main
 layout activity_login
 layout activity_main
 layout activity_meditate
+layout activity_mood_main
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout design_bottom_navigation_item
@@ -1420,7 +1432,6 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
-layout fragment_top_sliding_menu
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
 layout notification_action
@@ -2072,6 +2083,7 @@ styleable FontFamilyFont android_font android_fontWeight android_fontStyle andro
 styleable ForegroundLinearLayout android_foreground android_foregroundGravity foregroundInsidePadding
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
 styleable GradientColorItem android_color android_offset
+styleable GraphViewXML android_title seriesColor seriesData seriesTitle seriesType
 styleable LinearConstraintLayout android_orientation
 styleable LinearLayoutCompat android_gravity android_orientation android_baselineAligned android_baselineAlignedChildIndex android_weightSum divider dividerPadding measureWithLargestChild showDividers
 styleable LinearLayoutCompat_Layout android_layout_gravity android_layout_width android_layout_height android_layout_weight

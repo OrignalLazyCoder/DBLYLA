@@ -106,12 +106,12 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:id="@+id/meditateIconImageButton"
                     android:layout_width="65dp"
                     android:layout_height="65dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"
                     android:background="@null"
+                    android:id="@+id/meditateIconImageButton"
                     android:scaleType="fitXY"
                     android:src="@drawable/meditateicon" />
 
@@ -122,6 +122,7 @@
                     android:layout_marginRight="20dp"
                     android:background="@null"
                     android:scaleType="fitXY"
+                    android:id="@+id/relaxIconImageButton"
                     android:src="@drawable/relaxicon" />
 
                 <ImageButton
@@ -131,6 +132,7 @@
                     android:layout_marginRight="20dp"
                     android:background="@null"
                     android:scaleType="fitXY"
+                    android:id="@+id/moodIconImageButton"
                     android:src="@drawable/moodicon" />
 
             </LinearLayout>
@@ -144,7 +146,7 @@
 
 
                 <ImageButton
-                    android:id="@+id/btnChat"
+                    android:id="@+id/chatIconImageButton"
                     android:layout_width="65dp"
                     android:layout_height="65dp"
                     android:layout_marginLeft="20dp"
@@ -160,6 +162,7 @@
                     android:layout_marginRight="20dp"
                     android:background="@null"
                     android:scaleType="fitXY"
+                    android:id="@+id/blogIconImageButton"
                     android:src="@drawable/blogicon" />
 
                 <ImageButton
@@ -169,6 +172,7 @@
                     android:layout_marginRight="20dp"
                     android:background="@null"
                     android:scaleType="fitXY"
+                    android:id="@+id/helpIconImageButton"
                     android:src="@drawable/helpicon" />
 
 

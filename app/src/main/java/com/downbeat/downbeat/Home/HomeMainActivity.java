@@ -7,12 +7,13 @@ import android.view.View;
 import android.widget.ImageButton;
 
 import com.downbeat.downbeat.Meditate.MeditateActivity;
+import com.downbeat.downbeat.MoodManager.MoodMainActivity;
 import com.downbeat.downbeat.R;
 import com.sothree.slidinguppanel.SlidingUpPanelLayout;
 
 public class HomeMainActivity extends AppCompatActivity {
 
-    ImageButton downbeatIconImageButton;
+    ImageButton downbeatIconImageButton, meditateIconImageButton, moodIconImageButton;
     SlidingUpPanelLayout slidingUpPanelLayout;
 
     @Override
@@ -20,8 +21,9 @@ public class HomeMainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_main);
 
-
         downbeatIconImageButton = findViewById(R.id.downbeatIconImageButton);
+        meditateIconImageButton = findViewById(R.id.meditateIconImageButton);
+        moodIconImageButton = findViewById(R.id.moodIconImageButton);
 
         slidingUpPanelLayout = findViewById(R.id.slidingTopMenuLayout);
 
@@ -31,6 +33,22 @@ public class HomeMainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getApplicationContext(), MeditateActivity.class));
+                finish();
+            }
+        });
+
+        meditateIconImageButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), MeditateActivity.class));
+                finish();
+            }
+        });
+
+        moodIconImageButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), MoodMainActivity.class));
                 finish();
             }
         });

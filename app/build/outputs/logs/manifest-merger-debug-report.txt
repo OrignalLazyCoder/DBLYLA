@@ -1,13 +1,14 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Raja\StudioProjects\DBLYLA\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\Raja\StudioProjects\DBLYLA\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\Raja\StudioProjects\DBLYLA\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\Raja\StudioProjects\DBLYLA\app\src\main\AndroidManifest.xml:2:1-31:12
+ADDED from C:\Users\Raja\StudioProjects\DBLYLA\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\Raja\StudioProjects\DBLYLA\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\Raja\StudioProjects\DBLYLA\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\Raja\StudioProjects\DBLYLA\app\src\main\AndroidManifest.xml:2:1-32:12
 MERGED from [com.sothree.slidinguppanel:library:3.4.0] C:\Users\Raja\.gradle\caches\transforms-1\files-1.1\library-3.4.0.aar\a00003d2183e15a4c4e32aa3af082c2c\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:design:28.0.0] C:\Users\Raja\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\e45ce7f619a0b6c22efab0819e8cdf48\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Raja\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\64d0e50fd68330e18086a91d334cd8bb\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:customtabs:28.0.0] C:\Users\Raja\.gradle\caches\transforms-1\files-1.1\customtabs-28.0.0.aar\a6e22fb06c1966b78cb42d002cbcf85b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\Raja\.gradle\caches\transforms-1\files-1.1\graphview-4.2.2.aar\6be159d36d3251a6497a0751beb63dfa\AndroidManifest.xml:2:1-14:12
 MERGED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\Raja\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.5.aar\7afa2a12e0294634f3df62f71ef4f256\AndroidManifest.xml:17:1-42:12
 MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Raja\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\a4578c26832dcf7522ed6b7eb4988554\AndroidManifest.xml:17:1-39:12
 MERGED from [com.google.firebase:firebase-database:16.0.4] C:\Users\Raja\.gradle\caches\transforms-1\files-1.1\firebase-database-16.0.4.aar\debe39597960c8d31d089a0d4d8545bf\AndroidManifest.xml:15:1-25:12
@@ -68,20 +69,20 @@ MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Raja\.gradle\cach
 MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Raja\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\df6c6494b12e01182a0e44ea2c6960f7\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:print:28.0.0] C:\Users\Raja\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\c5df312acdd31f79cffc15b320ea2f41\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:protolite-well-known-types:16.0.0] C:\Users\Raja\.gradle\caches\transforms-1\files-1.1\protolite-well-known-types-16.0.0.aar\61d43a75d64b07e33ce3d1cbb3f7db87\AndroidManifest.xml:2:1-11:12
-INJECTED from C:\Users\Raja\StudioProjects\DBLYLA\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\Raja\StudioProjects\DBLYLA\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\Raja\StudioProjects\DBLYLA\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\Raja\StudioProjects\DBLYLA\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\Raja\StudioProjects\DBLYLA\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\Raja\StudioProjects\DBLYLA\app\src\main\AndroidManifest.xml:2:1-32:12
 	package
 		ADDED from C:\Users\Raja\StudioProjects\DBLYLA\app\src\main\AndroidManifest.xml:3:5-36
 		INJECTED from C:\Users\Raja\StudioProjects\DBLYLA\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Raja\StudioProjects\DBLYLA\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Raja\StudioProjects\DBLYLA\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Raja\StudioProjects\DBLYLA\app\src\main\AndroidManifest.xml:2:1-31:12
+		ADDED from C:\Users\Raja\StudioProjects\DBLYLA\app\src\main\AndroidManifest.xml:2:1-32:12
 		INJECTED from C:\Users\Raja\StudioProjects\DBLYLA\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Raja\StudioProjects\DBLYLA\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Raja\StudioProjects\DBLYLA\app\src\main\AndroidManifest.xml:2:1-31:12
+		ADDED from C:\Users\Raja\StudioProjects\DBLYLA\app\src\main\AndroidManifest.xml:2:1-32:12
 		INJECTED from C:\Users\Raja\StudioProjects\DBLYLA\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Raja\StudioProjects\DBLYLA\app\src\main\AndroidManifest.xml:2:11-69
@@ -106,11 +107,13 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:
 	android:name
 		ADDED from C:\Users\Raja\StudioProjects\DBLYLA\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\Raja\StudioProjects\DBLYLA\app\src\main\AndroidManifest.xml:7:5-29:19
+ADDED from C:\Users\Raja\StudioProjects\DBLYLA\app\src\main\AndroidManifest.xml:7:5-30:19
 MERGED from [com.sothree.slidinguppanel:library:3.4.0] C:\Users\Raja\.gradle\caches\transforms-1\files-1.1\library-3.4.0.aar\a00003d2183e15a4c4e32aa3af082c2c\AndroidManifest.xml:9:5-20
 MERGED from [com.sothree.slidinguppanel:library:3.4.0] C:\Users\Raja\.gradle\caches\transforms-1\files-1.1\library-3.4.0.aar\a00003d2183e15a4c4e32aa3af082c2c\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:28.0.0] C:\Users\Raja\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\e45ce7f619a0b6c22efab0819e8cdf48\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] C:\Users\Raja\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\e45ce7f619a0b6c22efab0819e8cdf48\AndroidManifest.xml:22:5-20
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\Raja\.gradle\caches\transforms-1\files-1.1\graphview-4.2.2.aar\6be159d36d3251a6497a0751beb63dfa\AndroidManifest.xml:11:5-12:19
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\Raja\.gradle\caches\transforms-1\files-1.1\graphview-4.2.2.aar\6be159d36d3251a6497a0751beb63dfa\AndroidManifest.xml:11:5-12:19
 MERGED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\Raja\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.5.aar\7afa2a12e0294634f3df62f71ef4f256\AndroidManifest.xml:23:5-40:19
 MERGED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\Raja\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.5.aar\7afa2a12e0294634f3df62f71ef4f256\AndroidManifest.xml:23:5-40:19
 MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Raja\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\a4578c26832dcf7522ed6b7eb4988554\AndroidManifest.xml:22:5-37:19
@@ -209,6 +212,10 @@ activity#com.downbeat.downbeat.Meditate.MeditateActivity
 ADDED from C:\Users\Raja\StudioProjects\DBLYLA\app\src\main\AndroidManifest.xml:28:9-63
 	android:name
 		ADDED from C:\Users\Raja\StudioProjects\DBLYLA\app\src\main\AndroidManifest.xml:28:19-60
+activity#com.downbeat.downbeat.MoodManager.MoodMainActivity
+ADDED from C:\Users\Raja\StudioProjects\DBLYLA\app\src\main\AndroidManifest.xml:29:9-65
+	android:name
+		ADDED from C:\Users\Raja\StudioProjects\DBLYLA\app\src\main\AndroidManifest.xml:29:19-63
 uses-sdk
 INJECTED from C:\Users\Raja\StudioProjects\DBLYLA\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Raja\StudioProjects\DBLYLA\app\src\main\AndroidManifest.xml
@@ -221,6 +228,8 @@ MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Raja\.gradle\cach
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Raja\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\64d0e50fd68330e18086a91d334cd8bb\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:customtabs:28.0.0] C:\Users\Raja\.gradle\caches\transforms-1\files-1.1\customtabs-28.0.0.aar\a6e22fb06c1966b78cb42d002cbcf85b\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:customtabs:28.0.0] C:\Users\Raja\.gradle\caches\transforms-1\files-1.1\customtabs-28.0.0.aar\a6e22fb06c1966b78cb42d002cbcf85b\AndroidManifest.xml:20:5-44
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\Raja\.gradle\caches\transforms-1\files-1.1\graphview-4.2.2.aar\6be159d36d3251a6497a0751beb63dfa\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\Raja\.gradle\caches\transforms-1\files-1.1\graphview-4.2.2.aar\6be159d36d3251a6497a0751beb63dfa\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\Raja\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.5.aar\7afa2a12e0294634f3df62f71ef4f256\AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\Raja\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.5.aar\7afa2a12e0294634f3df62f71ef4f256\AndroidManifest.xml:21:5-44
 MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Raja\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\a4578c26832dcf7522ed6b7eb4988554\AndroidManifest.xml:20:5-44

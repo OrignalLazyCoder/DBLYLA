@@ -1,14 +1,12 @@
 package com.downbeat.downbeat;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageButton;
 
-import com.downbeat.downbeat.Home.HomeMainActivity;
 import com.downbeat.downbeat.Login.Login;
-import com.downbeat.downbeat.Meditate.MeditateActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -28,5 +26,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    @Override
+    public void onBackPressed() {
+        finish();
+        super.onBackPressed();
     }
 }
